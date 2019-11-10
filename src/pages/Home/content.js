@@ -1,7 +1,7 @@
 export default {
   banner: {
-    title: `We're Building The \nNew Internet`,
-    desc: '[Freedom](/#freedom) of expression, [control](/#control) of personal data, [private and secure](/#privacy) communications; and a whole new [economy](/#economy). Welcome to the SAFE Network.',
+    title: `Ние създаване Новия Интернет`,
+    desc: '[Свобода](/#freedom) на изразяване, [контрол](/#control) върху личната информация, [лични и защитени](/#privacy) комуникации; и изцяло нова [икономика](/#economy). Добре дошли в SAFE Network.',
     aside: {
       para: 'Using spare bandwidth and unused disk space on home computers and phones, we’re taking the web off corporate servers, out of government control, and back into the hands of people.',
       CTA: {
