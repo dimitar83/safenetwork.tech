@@ -55,28 +55,28 @@ export default {
   data: {
     title: 'Пълен контрол върху информацията ви',
     para: [
-      'The SAFE Network turns the current data ownership model on its head.',
-      'Gone are the days of your personal information being stored on corporate servers. Self Authentication means you are in complete control over your data: it resides with you. Grant permission for apps to connect to it, and no company or third party ever has access. ',
+      'SAFE мрежата обръща настоящия модел за притежание на информацията с главата надолу.',
+      'Преброени са дните на съхраняването на личната ви информация върху корпоративни сървъри. Само Удостоверяването означава, че вече имате пълен контрол върху личната си информация: тя остава ваша. Вие позволявате на програмите достъп до нея и никоя корпорация или трета страна няма да има достъп до нея. ',
     ],
     CTA: {
-      name: 'Read more about Self Authentication',
+      name: 'Прочетете повече за Само Удостоверяването',
       url: 'faq/#what-is-self-authentication'
     },
     aside1: {
-      title: 'Pay Once, Store Forever',
+      title: 'Плащате веднъж, съхранява се вечно',
       para: [
-        'Upload your data and have it stored securely forever. Get free unrestricted access from any connected device around the world.',
-        'You’ll pay a minimal, one-time, upload charge but you’ll get permanent secure backups with no more monthly fees.'
+        'Качете информацията си и тя ще се съхранява безопасно вечно. Имате пълен и безплатен достъп до нея от всяко свързано устройство по земята.',
+        'Ще платите минимална, еднократна, такса за качване, но ще получите вечно и безопасно съхранение без да плащате повече месечни такси.'
       ]
     },
     aside2: {
-      title: 'One Password. For real this time.',
+      title: 'Една парола. Този път наистина.',
       para: [
-        'All apps are securely accessed from the single password used to create your account. Say goodbye to that password manager.',
+        'Всички програми се достъпват безопасно през една парола използвана за създаването на акаунта ви. Къжете сбогом на мениджъра за пароли.',
       ]
     },
     aside3: {
-      title: 'Data Portability',
+      title: 'Преносимост на данните',
       para: [
         'Being in complete control means you can quickly and easily move your data between apps and services. Mix and match to meet your needs, and leave no data behind.',
       ]
