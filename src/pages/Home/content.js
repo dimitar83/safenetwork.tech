@@ -78,53 +78,53 @@ export default {
     aside3: {
       title: 'Преносимост на данните',
       para: [
-        'Being in complete control means you can quickly and easily move your data between apps and services. Mix and match to meet your needs, and leave no data behind.',
+        'Пълният контрол върху данните ви значи, че може бързо и лесно да ги местите между различните програми и услуги. Разбърквайте и съчетавайте според нуждите си и не оставяйте никакви данни след себе си.',
       ]
     },
     aside4: {
-      title: 'Dude, where’s my blockchain?',
+      title: 'Човече, а къде ми е блокчейнът?',
       para: [
-        'No blockchain means endless scalability and instant transactions at network speed. Exactly what a global data network needs.',
+        'Без блокчейн значи, че имаме възможност за безкраен растеж и мигновенни транзакции със скороста на мрежата. Точно това, от което се нуждае една глобална мрежа за данни.',
       ],
       CTA: {
-        name: 'Read more about the design',
+        name: 'Прочетете повече за дизайна',
         url: '/how-it-works/'
       }
     },
   },
   economy: {
-    title: 'The New Digital Economy',
+    title: 'Новата дигитална икономика',
     para: [
-      'Welcome to the new economy where you no longer pay for your digital life with your personal data.  Instead, you’ll use Safecoin, a crypto currency that is integrated into and distributed entirely by the network.',
-      'Users are compensated for providing their resources and can use this to pay developers to use their apps in a virtuous and self sustaining cycle.',
-      'SAFE is a network where wealth is shared based on the value that everyone provides.'
+      'Добре дошли в новата икономика, в която вече не плащате за дигиталния си живот с личната си информация. Вместо това, ще използвате Сейфкойн, криптовалута, която е интегрирана в мрежата и се разпределя изцяло от нея.',
+      'Потребителите се компенсират за ресурсите, които предоставят и могат да използват тази компенсация за да плащат на разработчиците за да използват приложенията им по един устойчив и самоподдържащ се начин.',
+      'SAFE е мрежа, в която богатството се разпределя според стойността, която всеки предоставя.'
     ],
     CTA: {
-      name: 'Read more about Safecoin',
+      name: 'Разберете повече за Safecoin',
       url: '/safecoin/'
     },
     aside1: {
-      title: 'Always Free to Access',
+      title: 'Винаги с безплатен достъп',
       para: [
-        'Information is always free to access. You’ll never be charged for browsing or downloading. The SAFE Network guarantees equal access to data for everyone. You don’t even need an account, just download the browser.',
+        'Информацията е винаги достъпна безплатно. Никога няма да платите за браузване или сваляне. SAFE мрежата гарантира равен достъп до информация на всеки. Дори не ви трябва акаунт, просто свалете SAFE браузъра.',
       ]
     },
     aside2: {
-      title: 'The Perfect Market',
+      title: 'Перфектния пазар',
       para: [
-        'As there is no human interaction, the Network autonomously creates a perfect market.  Prices are set continually dependent on available resources and user demand.',
+        'Без човешка намеса мрежата автономно създава перфектен пазар. Цените се определят в зависимост от свободните ресурси и потребителското търсене.',
       ]
     },
     aside3: {
-      title: 'No Infrastructure Costs',
+      title: 'Без разходи за инфраструктура',
       para: [
-        'Without fixed infrastructure costs, each additional member of the network increases the utility and speed for everyone else. And the system rewards popular apps and websites with payments directly.',
+        'Без фиксирани разходи за инфраструктура всеки следващ член на мрежата увеличава ползата и скоростта за всеки друг. И системата награждава популярните програми и сайтове с директни плащания.',
       ]
     },
     aside4: {
-      title: 'Contribute Resources, Get Paid.',
+      title: 'Предоставяте ресурси, получавате заплащане.',
       para: [
-        'By running a Vault, you can offer the network your unused resources—like hard drive space and bandwidth—and be automatically be rewarded with Safecoin.',
+        'Пускайки Трезор може да предоставите на мрежата неизползваните си ресурси — като място на хард диска и интернет скорост — и автоматично ще получите заплащане в Сейфкойни.',
       ]
     },
   }
