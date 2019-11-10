@@ -22,38 +22,38 @@ export default {
     },
     founderQuote: {
       para: `"Да поправим интернет не е въпрос на избор и сега имаме решение, в което всички може да участваме."`,
-      by: 'David Irvine — Founder'
+      by: 'Дейвид Ървайн - основател'
     },
     aside1: {
-      title: 'All information is equal',
-      para: 'All data on the network is treated the same, and everyone has equal and free access.  Net neutrality comes as standard.'
+      title: 'Всичката информация е равна',
+      para: 'Всичката информация в мрежата се третира по един и същи начин, и всеки има равен и безплатен достъп.  Неутралността на мрежата идва като стандарт.'
     },
     aside2: {
-      title: 'Can’t be censored or shut down',
-      para: 'Because it’s autonomous, the SAFE Network can’t be turned off, blocked or controlled. It belongs to humanity.'
+      title: 'Не може да бъде цензурирана или изключена',
+      para: 'Понеже е автономна SAFE мрежата не може да бъде изключена, блокирана или контролирана. Тя принадлежи на човечеството.'
     }
   },
   privacy: {
-    title: 'Total Privacy, Absolute Security.',
+    title: 'Тотална поверителност, абсолютна сигурност.',
     para: [
-      'Privacy and security should be available to everyone, not just those with deep pockets.',
-      'That’s why the SAFE Network encrypts all data by default, automatically splitting it into many pieces which constantly move to locations around the globe that cannot be traced. And your access to them is untraceable too.',
-      ' No more hacked data, no more stolen passwords, no more eavesdropping. Private. Secure. Anonymous.'
+      'Поверителността и сигурността трябва да са достъпни за всеки, не само за тези с дълбоки джобове.',
+      'Затова SAFE мрежата криптира всичката информация по подразбиране, автоматично я разделя на множество части, които постоянно мести в различни локации по земята, които не могат да бъдат проследени. И достъпът ви до тях също е непроследим.',
+      ' Без повече хакната информация, без повече откраднати пароли, без повече подслушване. Лично. Сигурно. Анонимно.'
     ],
     CTA: {
-      name: 'How does it work?',
+      name: 'Как работи?',
       url: '/how-it-works/'
     },
     quote: {
-      para: 'When we’re given the tools to communicate privately and securely we gain the freedom to collaborate and innovate all as one.'
+      para: 'Когато ни предоставят инструментите за комуникация на личен и сигурен принцип, ние получаваме свободата да си сътрудничим и да правим нововъведения като едно цяло.'
     },
     aside1: {
-      title: 'Browse and access anonymously',
-      para: 'On the SAFE Network, you are free to browse and download completely anonymously, from anywhere in the world. No account necessary.'
+      title: 'Разглеждайте и сваляйте анонимно',
+      para: 'В SAFE мрежата сте свободни да браузвате и сваляте напълно анонимно, от всякъде по света. Без нуждата от акаунт.'
     }
   },
   data: {
-    title: 'Complete Control of Your Data',
+    title: 'Пълен контрол върху информацията ви',
     para: [
       'The SAFE Network turns the current data ownership model on its head.',
       'Gone are the days of your personal information being stored on corporate servers. Self Authentication means you are in complete control over your data: it resides with you. Grant permission for apps to connect to it, and no company or third party ever has access. ',
