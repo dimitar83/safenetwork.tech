@@ -1,27 +1,27 @@
 export default {
   banner: {
-    title: `Ние създаване Новия Интернет`,
+    title: `Ние създаване \nНовия Интернет`,
     desc: '[Свобода](/#freedom) на изразяване, [контрол](/#control) върху личната информация, [лични и защитени](/#privacy) комуникации; и изцяло нова [икономика](/#economy). Добре дошли в SAFE Network.',
     aside: {
-      para: 'Using spare bandwidth and unused disk space on home computers and phones, we’re taking the web off corporate servers, out of government control, and back into the hands of people.',
+      para: 'Използвайки свободната интернет връзка и неизползваното пространство на хард дисковете на домашните компютри и телефони, ние преместваме интернет от сървърите на корпорациите, извън контрола на правителствата, и обратно в ръцете на хората.',
       CTA: {
-        name: 'See How it Works',
+        name: 'Вижте как работи',
         url: '/how-it-works/'
       }
     },
   },
   freedom: {
-    title: 'Decentralised & Autonomous: \nFreedom of expression by design.',
+    title: 'Децентрализиран и Автономен: \nСвобода на изразяване по дизайн.',
     para: [
-      'Everyone should be able to collaborate freely and share ideas; free and unrestricted access to information for everyone around the world.',
-      'That’s why we’ve design a system like no other: An autonomous network that runs itself, distributed across the globe, that can’t be shut down, controlled, or censored.'
+      'Всеки трябва да е свободен да общува и да споделя идеи; безплатен и неограничен достъп до информация за всеки по света.',
+      'Затова създаваме система като никоя друга: Автономна мрежа, която работи сама, разпръсната по цялата земя, която не може да бъде изключена, контролирана, или цензурирана.'
     ],
     CTA: {
-      name: 'What is an Autonomous Network?',
+      name: 'Какво е Автономна мрежа?',
       url: '/faq/#what-is-an-autonomous-network'
     },
     founderQuote: {
-      para: `"Fixing the Internet isn't optional, and now there's a solution we can all be part of."`,
+      para: `"Да поправим интернет не е въпрос на избор и сега имаме решение, в което всички може да участваме."`,
       by: 'David Irvine — Founder'
     },
     aside1: {
