@@ -1,33 +1,33 @@
 export default {
   banner: {
-    title: 'Autonomous, Decentralised, Encrypted.',
+    title: 'Автономна, Децентрализирана, Криптирана.',
     aside: {
-      para: 'Powered by the spare capacity of everyday computers, SAFE replaces the vulnerable structure of the existing Web with a decentralised, autonomous network. One that is secure, and accessible to everyone.',
+      para: 'Захранвана от свободния капацитет на домашните компютри, SAFE заменя уязвимата структура на съществуващият Интернет с децентрализирана, автономна мрежа. Такава, която е сигурна и достъпна за всички.',
       CTA: {
-        name: `Here's how it works`,
+        name: `Ето как работи`,
         url: '/faq/#what-is-a-vault'
       }
     },
   },
   topics: [
     {
-      name: 'Introduction',
+      name: 'Въведение',
       desc: [
         {
-          title: 'Getting to grips with the SAFE Network',
+          title: 'Да се запознаем със Safe мрежата',
           para: [
-            'If you don’t understand what a new decentralised web might mean, you’re far from alone. But once the benefits of a new web built on the SAFE Network become clear—permanent data, never again stored by untrustworthy and hackable third parties that you alone can access at any time from anywhere around the globe—the value becomes clearer. There’s a huge amount of work required to build a system that can deliver on such promises. So to get you started, here’s a few pointers about some of the technology that lies under the hood.'
+            'Ако не разбирате какво представлява една нова децентрализирана мрежа, вие далеч не сте сами. Но след като ползите от нов Интернет, изграден върху Safe мрежата, станат ясни - вечно съхраняване на данните ви, далеч от ненадеждни и уязвими на хакерски атаки трети страни, до които само вие имате достъп по всяко време от всяка точка на света - човек започва да разбира. За изграждането на система, която може да изпълни подобни обещания, е необходимо огромно количество работа. За начало, ето няколко обяснения за някои от технологиите, които използваме.'
           ]
         }
       ]
     }, {
-      name: 'Browsing',
+      name: 'Сърфиране',
       desc: [
         {
-          title: 'All human knowledge, available to all humanity',
+          title: 'Цялото човешко знание, достъпно за цялото човечество',
           para: [
-            `Perhaps you only want to view content on the Network. For many, that may seem no different to the Web today. But for the 1.5 billion people around the world blocked from sites like Wikipedia, it's a giant leap forward. And all they need to do is download the SAFE browser—the gateway to the new Web—accessible by anyone, anywhere.`,
-            'Browsing SAFE is private, anonymous, and secure—free from tracking by corporate or government interests. The choices you make are yours alone. No more having The Invisible Other looking over your shoulder.'
+            `Може би искате да разглеждате само съдържанието в мрежата. За мнозина това може да изглежда не по-различно от настоящия Интернет. Но за 1,5 милиарда души по света, блокирани от сайтове като Wikipedia, това е гигантски скок напред. И всичко, което трябва да направят, е да изтеглят Safe браузъра - портал към новата мрежа - достъпен за всеки, навсякъде.`,
+            'Сърфирането в Safе e частно, анонимно и сигурно - без проследяване от корпоративни или държавни интереси. Решенията, които взимате, са само ваши. Вече няма невидим друг, който да ви следи.'
           ]
         }
       ],
@@ -40,7 +40,7 @@ export default {
         }
       }
     }, {
-      name: 'Storing Data',
+      name: 'Съхранение на данни',
       desc: [
         {
           title: 'Pay once, securely store forever',
@@ -59,7 +59,7 @@ export default {
         }
       ],
     }, {
-      name: 'Where Is Data Stored?',
+      name: 'Къде се съхраняват данните?',
       desc: [
         {
           title: 'Behold, The Serverless Internet',
@@ -81,7 +81,7 @@ export default {
         }
       }
     }, {
-      name: 'Who Stores Your Data?',
+      name: 'Кой съхранява вашите данни?',
       desc: [
         {
           title: 'The Web hosted by everyone, controlled by no-one',
@@ -93,7 +93,7 @@ export default {
         }
       ]
     }, {
-      name: 'Network Architecture',
+      name: 'Мрежова архитектура',
       desc: [
         {
           title: 'Anatomy of an Autonomous Network',
