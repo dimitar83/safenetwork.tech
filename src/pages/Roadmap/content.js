@@ -236,118 +236,111 @@ export default {
         ],
         items: [
           {
-            feature: 'Secure Enclaves',
-            desc: 'A trusted executable environment within existing computers',
-            status: 'Concept',
+            feature: 'Сигурни анклави',
+            desc: 'Надеждна среда за изпълнение на кода в съществуващите компютри',
+            status: 'Концепция',
             para: [
-              'Creates an area within the hardware of a computer that is a secure, trusted environment that stands separate from the rest of the computer. It functions like a mini-computer inside existing computers that cannot be opened.'
+              'Създава зона в хардуера на компютър, която е защитена, надеждна среда, която стои отделно от останалата част от компютъра. Тя функционира като миникомпютър вътре в съществуващите компютри и не може да бъде достъпена.'
             ],
           }, {
-            feature: 'Network Growth',
-            desc: 'Allow the network to grow and scale in a sustainable way',
-            status: 'Concept',
+            feature: 'Растеж на мрежата',
+            desc: 'Позволява на мрежата да се разраства и управлява по устойчив начин',
+            status: 'Концепция',
             para: [
-              'The Network allows controlled growth to ensure that the majority of decision-makers are healthy nodes that follow the rules of the Network. This growth should be sustainable in order to avoid unnecessary mergers between Sections.'
+              'Мрежата позволява контролиран растеж, за да се гарантира, че по-голямата част от трезорите, вземащи решения работят правилно и следват правилата на мрежата. Този растеж трябва да бъде устойчив, за да се избегнат ненужни сливания между секциите.'
             ],
           }, {
-            feature: 'Network Restarts',
-            desc: 'Ability for the network to restart after a catastrophe',
-            status: 'Concept',
+            feature: 'Мрежови рестарти',
+            desc: 'Възможност за рестартиране на мрежата след катастрофа',
+            status: 'Концепция',
             para: [
-              'In the event of a catastrophic outage, the Network should be able to rebuild itself because it maintains the integrity of essential data (such as chain history) which enables it to start functioning again on the basis of the last known state of the Network.'
+              'В случай на катастрофално прекъсване, мрежата трябва да може да се възстанови отново, тъй като поддържа целостта на основните данни (като например верига на мрежовите събития), което й позволява да започне да функционира отново въз основа на последното известно състояние на мрежата.'
             ],
           }, {
-            feature: 'RDF Support',
-            desc: 'The Network will have native support for RDF, enabling data to be compatible with the Semantic Web',
+            feature: 'RDF поддръжка',
+            desc: 'Мрежата ще има естествена поддръжка за RDF, което позволява данните да бъдат съвместими със Семантичния Уеб',
             status: 'RFC',
             para: [
-              'Ensures that data on the SAFE Network is stored in such a way that the format can be understood by other Semantic Web projects, such as Solid.'
+              'Гарантира, че данните в Safe мрежата се съхраняват по такъв начин, че форматът да бъде разбран от други Семантични Уеб проекти, като Solid.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Прочетете RFC',
               url: 'https://github.com/nbaksalyar/rfcs/blob/master/text/0000-rdf-in-client-libs/0000-rdf-in-client-libs.md'
             },
           }, {
-            feature: 'Obfuscating stored data',
-            desc: 'All data stored within a Vault on an individual’s computer must be entirely encrypted and unreadable',
-            status: 'Concept',
+            feature: 'Скриване на съхранените данни',
+            desc: 'Всички данни, съхранявани в Трезор на компютъра на даден човек, трябва да бъдат изцяло криптирани и нечетливи',
+            status: 'Концепция',
             para: [
-              'Ensures that even the smallest piece of data that is stored in a Vault cannot be read by the person controlling the computer on which it is stored.'
+              'Гарантира, че дори и най-малката част от данните, които се съхраняват в Трезора, не могат да бъдат прочетени от лицето, което контролира компютъра, в който се съхраняват.'
             ],
-          }, {
-            feature: 'Common Coin',
-            desc: 'Replace our concrete coin with a common coin to make PARSEC fully asynchronous',
-            status: 'Design',
-            para: [
-              'Common coin is a device that nodes can use to generate a “random” binary value (true or false). Every time a node flips the coin, all other nodes are guaranteed to observe the same value for their coin flip. Also, the value must be unpredictable, which means that no malicious node can know the outcome before a honest node has observed it.'
-            ],
-          }
+          }, 
         ]
       }
     }
   },
   apps: {
-    title: 'Apps and User Experience',
+    title: 'Програми и потребителско изживяване',
     list: [
       {
         id: 'safeBrowser',
-        name: 'SAFE Browser',
-        para: 'The latest release includes some of the beginnings of the Perpetual Web, as well as the Authenticator: enabling you to securely sign in to the SAFE Network, and manage access and permissions of SAFE Apps.',
-        status: 'Latest Version v0.15.2'
+        name: 'Safe браузър',
+        para: 'Най-новата версия включва някои от основите на Вечната мрежа, както и Удостоверител: позволяващ ви да влезете в Safe мрежата безопасно и да управлявате достъпа и разрешенията на Safe програмите.',
+        status: 'Най-нова версия v0.15.2'
       }
     ],
     currentMilestone: {
-      status: 'Current Milestone',
-      title: 'The Perpetual Web',
-      para: 'The SAFE Network is designed to ensure that public data is permanent and can never be deleted. Individuals and groups can choose to keep their data private, but once it’s been published, it will remain permanently available. This milestone aims to showcase the incredible power of this facet of the Network, by building out the User Experience, and iterating on it right through to launch.',
+      status: 'Настояща работа',
+      title: 'Вечната мрежа',
+      para: 'Safe мрежата е създадена да гарантира, че публичните данни не подлежат на промяна и никога не могат да бъдат изтривани. Хора и групи от хора могат да изберат да запазят личните си данни непубликувани, но след като бъдат публикувани, те ще останат постоянно достъпни. Този крайъгълен камък има за цел да покаже невероятната сила на този аспект на мрежата чрез изграждането на потребителското изживяване и надграждане върху него, докато стартираме.',
       accordion: {
         header: [
-          'Milestone Features',
-          'Description',
-          'Status'
+          'Характеристики',
+          'Описание',
+          'Статус'
         ],
         items: [
           {
-            feature: 'SAFE Browser',
-            desc: 'Enhancements to the browser designed specifically to take advantage of the functionalities of the Perpetual Web',
-            status: 'Development',
+            feature: 'Safe браузър',
+            desc: 'Подобрения на браузъра, създадени специално за да се възползват от функционалностите на Вечната мрежа',
+            status: 'В разработка',
             para: [
-              'The SAFE Browser functionality will be extended to incorporate new features that are unique to the Perpetual Web, such as the ability to roll-back through the version history of any SAFE website or asset.'
+              'Функционалността на Safe браузъра ще бъде разширена, за да включва нови функции, които са уникални за Вечната мрежа, като например възможността за връщане назад през историята на версиите на всеки уебсайт или актив в Safe.'
             ],
           },
           {
-            feature: 'Mobile Browser',
-            desc: 'Mobile version of SAFE browser which is limited to browsing published data from the SAFE Network',
-            status: 'Complete',
+            feature: 'Мобилен браузър',
+            desc: 'Мобилна версия на Safe браузъра, при която сърфирането е ограничено до публикуваните данни в Safe Network',
+            status: 'Завършен',
             para: [
-              'Enables individuals to access the SAFE Network directly by using a browser on their mobile phone'
+              'Позволява на хората да имат достъп до Safe мрежата директно чрез браузър на мобилния си телефон'
             ],
           },
           {
-            feature: 'Data Manager',
-            desc: 'Streamlined publishing of SAFE sites and Perpetual Data',
-            status: 'Development',
+            feature: 'Мениджър за управление на данни',
+            desc: 'Рационализирано публикуване на Safe сайтове и Вечни данни',
+            status: 'В разработка',
             para: [
-              'A suite of tools which provides the necessary functionality to add data to the SAFE Network, publish perpetual data, and manage Public Names. This will supersede the Web Hosting Manager.'
+              'Набор от инструменти, които осигуряват необходимата функционалност за добавяне на данни към Safe мрежата, публикуване на вечни данни и управление на публични имена. Това ще измести настоящия мениджър за уеб хостинг.'
             ],
           },
           {
-            feature: 'SAFE CLI',
-            desc: 'An advanced CLI to manage accounts and data',
-            status: 'Development',
+            feature: 'Safe CLI',
+            desc: 'Усъвършенстван CLI за управление на акаунти и данни',
+            status: 'В разработка',
             para: [
-              'A command line tool to manage data on the SAFE Network. It will allow the user to store data on the network and manage accounts, identities, and permissions. This is the tool that the frontend apps and features—such as the Data Manager—will build upon.'
+              'Инструмент под формата на команден ред за управление на данни в Safe мрежата. Това ще позволи на потребителя да съхранява данни в мрежата и да управлява акаунти, идентичности и разрешения. Това е инструментът, върху който ще се надграждат приложенията и функциите на интерфейса - като например Мениджърът за управление на данните.'
             ],
           },
           {
-            feature: 'Public Name System',
-            desc: 'Content stored should be accessible with human-readable URLs, via a decentralised domain name system: the Public Name System',
+            feature: 'Система за публични имена',
+            desc: 'Съхраняваното съдържание трябва да е достъпно с четими от човека URL адреси чрез децентрализирана система от домейн имена: Системата за публични имена',
             status: 'RFC',
             para: [
-              'A domain name system translates numerical IP addresses into a format that can be read by humans (eg. http//216.58.206.35 resolves to Google.com). The current web relies on a centralised organisation to maintain that record. The SAFE Network requires this process to be outside the control of a single party in order to avoid censorship and repression.'
+              'Система за домейн имена превежда числови IP адреси във формат, който може да бъде прочетен от хора (напр. http//216.58.206.35 води до Google.com). Настоящата мрежа разчита на централизирана организация, която поддържа тези записи. Safe мрежата изисква този процес да бъде извън контрола на само една страна, за да се избегне цензура и репресии.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Прочетете RFC',
               url: 'https://github.com/maidsafe/rfcs/issues/283'
             },
           },
@@ -355,126 +348,126 @@ export default {
       }
     },
     upcomingMilestones: {
-      status: 'Upcoming Milestones',
+      status: 'Предстоящи разработки',
       list: [
         {
-          title: 'Private Communications',
-          para: 'If we want a world in which individuals can communicate freely whenever they choose, privacy is essential. This milestone aims to deliver just that.',
+          title: 'Частни комуникации',
+          para: 'Ако искаме свят, в който хората могат да общуват свободно, когато пожелаят, поверителността е от съществено значение. Този крайъгълен камък има за цел да постигне точно това.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Основни характеристики',
+              'Описание',
+              'Статус'
             ],
             items: [
               {
-                feature: 'Private Messaging',
-                desc: 'Send secure private messages between clients',
-                status: 'Concept',
+                feature: 'Частни съобщения',
+                desc: 'Изпращане на сигурни лични съобщения между клиентите',
+                status: 'Концепция',
                 para: [
-                  'One of the most sought after features of the SAFE Network: secure, private, instant messaging.'
+                  'Една от най-търсените функции на Safe Network: защитени, частни, незабавни съобщения.'
                 ],
               },
               {
-                feature: 'Identity Management',
-                desc: 'Ability for users to create and manage multiple identities',
-                status: 'Concept',
+                feature: 'Управление на идентичността',
+                desc: 'Възможност за потребителите да създават и управляват множество идентичности',
+                status: 'Концепция',
                 para: [
-                  'Improves the user experience for individuals as they switch between the identities (or profiles) that they choose to represent themselves with on the SAFE Network, without the need to create multiple accounts.'
+                  'Подобрява потребителското изживяване за хората, когато превключват между идентичности си (или профили), с които решават да се представят в Safe мрежата, без да е необходимо да създават множество различни акаунти.'
                 ],
               },
               {
-                feature: 'Contacts Management',
-                desc: 'Find, connect and stay up-to-date with other SAFE Network users  ',
-                status: 'Concept',
+                feature: 'Управление на контакти',
+                desc: 'Намерете, свържете се и бъдете в крак с другите потребители на Safe Network',
+                status: 'Концепция',
                 para: [
-                  'Enables SAFE users to find and connect with other people across a range of applications in a consistent way.'
+                  'Позволява на Safe потребителите да намират и да се свързват с други хора в редица приложения по устойчив начин.'
                 ],
               },
             ]
           }
         },
         {
-          title: 'Take Control of Your Data',
-          para: 'The SAFE Network turns the current data ownership model on its head. Personal information will no longer be stored on corporate servers. Self Authentication gives you complete control over your data. You can grant (and revoke) permission for apps to use your data at any time and prevent any unauthorised company or third party ever gaining access.',
+          title: 'Поемете контрола върху свойте данни',
+          para: 'Safe мрежата напълно променя текущия модел за собствеността на данни ви. Личната ви информация вече няма да се съхранява на корпоративни сървъри. Самоудостоверяването ви дава пълен контрол върху вашите данни. Можете да предоставите (и да оттеглите) разрешение на приложенията да използват вашите данни по всяко време и да попречите на неоторизирана компания или трета страна да получи достъп до тях.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Основни характеристики',
+              'Описание',
+              'Статус'
             ],
             items: [
               {
-                feature: 'Data Manager',
-                desc: 'Fine-grained management of your personal data',
-                status: 'Concept',
+                feature: 'Мениджър за управление на данни',
+                desc: 'Прецизно управление на вашите лични данни',
+                status: 'Концепция',
                 para: [
-                  'The extension of the Data Manager tool to allow fine-grained control by individuals over their private and unpublished data.'
+                  'Разширяването на инструмента за управление на данни, за да позволи фин контрол от потребителите върху техните лични и непубликувани данни.'
                 ],
               },
               {
-                feature: 'RDF Support',
-                desc: 'Support storing and querying RDF resources in SAFE-Core',
+                feature: 'RDF поддръжка',
+                desc: 'Поддръжка за съхранение и запитване за RDF ресурси в Safe-Core',
                 status: 'RFC',
                 para: [
-                  'Ensures that the SAFE Network understands a way of describing the architecture of data that is understood by other projects, such as Solid'
+                  'Гарантира, че Safe мрежата разбира начин за описание на архитектурата на данните, който се разбира и от други проекти, като Solid'
                 ],
                 CTA: {
-                  name: 'Read the RFC',
+                  name: 'Прочетете RFC',
                   url: 'https://github.com/maidsafe/rfcs/issues/289'
                 },
               },
               {
-                feature: 'SPARQL Support',
-                desc: 'Add native support for SPARQL to allow searching of data',
-                status: 'Concept',
+                feature: 'SPARQL поддръжка',
+                desc: 'Добавя основна поддръжка за SPARQL, за да позволи търсенето на данни',
+                status: 'Концепция',
                 para: [
-                  'Enhances the functionality of SAFE by adding SPARQL support to SAFE Client Libs and SAFE Vault.  This ensures that the Network can understand a well-known semantic query language, and enables users to search.'
+                  'Подобрява функционалността на Safe чрез добавяне на поддръжка на SPARQL към Safe Клиентските библиотеки и Safe Трезора. Това гарантира, че мрежата може да разбере добре познат език на семантичните заявки и дава възможност на потребителите да търсят.'
                 ],
               },
               {
-                feature: 'Collaboration',
-                desc: 'Tools to enable collaboration through sharing and group permissions on private unpublished data',
-                status: 'Concept',
+                feature: 'Сътрудничество',
+                desc: 'Инструменти за активиране на сътрудничество чрез споделяне и групови разрешения за частни непубликувани данни',
+                status: 'Концепция',
                 para: [
-                  'Manage sharing and permissions of private, unpublised data and files, for collaboration between individuals and groups. '
+                  'Управлява споделянето и разрешенията на частни, непубликувани данни и файлове, за сътрудничество между хора и групи.'
                 ],
               },
               {
-                feature: 'XOR URLs',
-                desc: 'A way of sharing and accessing SAFE Network files without the need for a Public Name',
-                status: 'Complete',
+                feature: 'XOR адреси',
+                desc: 'Начин за споделяне и достъп до файловете в Safe Network, без да е необходимо обществено име',
+                status: 'Завършен',
                 para: [
-                  'Create a system of standardised URL’s on the SAFE Network that are based on the XOR address of the content being referenced. Ensures that individuals can access and locate  data and files in a more user-friendly manner.'
+                  'Създава система от стандартизирани URL адреси в Safe мрежата, които се базират на XOR адреса на съдържанието, към което се прави препратка. Гарантира, че хората могат да имат достъп и да намират данни и файлове по-удобен за потребителите начин.'
                 ],
               }
             ]
           }
         },
         {
-          title: 'The New Digital Economy',
-          para: 'The new digital economy is all about ensuring that you no longer pay for your digital life with data. Instead, you use a cryptocurrency that’s integral and distributed by the SAFE Network. You earn value in return for providing resources to the Network.',
+          title: 'Новата дигитална икономика',
+          para: 'Новата дигитална икономика цели да гарантира, че вече няма да заплащате за дигиталния си живот с личните си данни. Вместо това използвате криптовалута, която е интегрална и се разпространява от Safe мрежата. Печелите пари в замяна на предоставянето на ресурси в мрежата.',
           accordion: {
             header: [
-              'Milestone Features',
-              'Description',
-              'Status'
+              'Основни характеристики',
+              'Описание',
+              'Статус'
             ],
             items: [
               {
-                feature: 'Test Safecoin Wallet',
-                desc: 'Transact using Test Safecoins',
-                status: 'Development',
+                feature: 'Тестов портфейл за Safecoin',
+                desc: 'Разплащания с тестови Safecoin',
+                status: 'В разработка',
                 para: [
-                  'Users will be able to use Test Safecoin in the Network, allowing an ecosystem to built around the SAFE incentive mechanism. The ability to create multiple wallets, associate them with an identity, and also one-time-use wallets to enable anonymous transactions, will all be part of this.',
+                  'Потребителите ще могат да използват тестови Safecoin в мрежата, което позволява изграждане на екосистема около механизма за стимулиране в Safe мрежата. Възможността да създавате няколко портфейла, да ги свързвате с идентичност, както и създаването на еднократни портфейли за извършване на анонимни транзакции, всичко това ще се покрива като функционалност.',
                 ],
               },
               {
-                feature: 'Vault User Interface',
-                desc: 'Easily set up, run, and manage a Vault',
-                status: 'Concept',
+                feature: 'Потребителски интерфейс на трезора',
+                desc: 'Лесно настройване, стартиране и управление на Трезор',
+                status: 'Концепция',
                 para: [
-                  'Users will see greatly-improved Vault User Experience. Anyone providing storage to the Network can expect to see a number of usability improvements, making it easy to offer resources and start farming on everyday home computers and devices.'
+                  'Потребителите ще видят значително подобрено потребителско изживяване за Трезора. Всеки, който предоставя място в мрежата, може да очаква да види редица подобрения в използваемостта, което улеснява продажбата на ресурси и фермерството върху домашни компютри и устройства.'
                 ],
               },
             ]
