@@ -1,28 +1,25 @@
 export default {
   banner: {
-    pageTitle: 'The ~~Im~~Possible Network',
-    pageDesc: `12 years of research and development is coming to fruition as we put together the final building blocks of what some said was impossible: Secure Access For Everyone.`,
+    pageTitle: '~~Не~~Възможната мрежа',
+    pageDesc: `14 години работа дават най-после дават резултат, след като съставихме окончателните градивни елементи на това, което някои казваха, че е невъзможно: сигурен достъп за всички.`,
     latestUpdate: {
-      overline: 'Latest Update',
-      date: '29 August 2019',
-      title: 'Vault Phase 1',
-      para: `The final piece of the puzzle is complete and we now have the SAFE CLI, SAFE Client Libs, vault and SAFE Browser.`,
+      overline: 'Последно актуализиране',
+      date: '29 август 2019 г.',
+      title: 'Трезори Фаза 1',
+      para: `Финалното парче на пъзела е завършено и вече имаме Safe CLI, Safe Клиентски библиотеки, Safe Трезор и Safe Браузър.`,
        CTA: {
-         name: 'SafeNetwork Forum',
+         name: 'SafeNetwork форум',
          url: 'https://safenetforum.org/t/new-release-vault-phase-1-real-vault/29712'
        }
     }
   },
-  subscribe: {
-    title: 'Subscribe for updates:'
-  },
   releases: {
     release1: {
-      overline: 'Live Now',
-      title: 'Phase 1 Vaults',
+      overline: 'Актуално',
+      title: 'Фаза 1 Трезори',
       para:[
-        `This Phase 1 Vault release is primarily to showcase the Network features to Consumers (people using the Network to browse, share data, etc.) and Creators (developers or those publishing content).  It allows users to test out features such as SAFE CLI and SAFE Client Libs, as well as introducing the new data types.`,
-        'It’s easy to use. Just download a Vault binary which will run locally on your computer. Details and links can be found on this [Forum post](https://safenetforum.org/t/new-release-vault-phase-1-real-vault/29712)'
+        `Тази версия на Safe Фаза 1 е предимно за показване на мрежовите функции на потребителите (хората, които използват мрежата за сърфиране, споделяне на данни и т.н.) и създателите (разработчиците на програми или тези, които публикуват съдържание). Тя позволява на потребителите да изпробват функции като Safe CLI и Safe Клиентските библиотеки, както и представя новите типове данни.`,
+        'Използва се лесно. Просто изтеглете програмата Трезор, който ще работи локално на вашия компютър. Подробности и линкове за сваляне можете да намерите в [тази публикация във форума](https://safenetforum.org/t/new-release-vault-phase-1-real-vault/29712)'
       ],
       // accordion: {
       //   header: [
@@ -35,158 +32,147 @@ export default {
       // }
     },
     release2: {
-      overline: 'Upcoming Milestone',
-      title: 'SAFE Fleming Network',
-      para: ['The next major milestone for the SAFE Network. Whilst the The Shared Vault Network will continue to function, this will be a standalone Network that will enable individuals to run Vaults - decentralised storage from home computers. The release of Fleming will be notable for many reasons, not least the fact that with data storage, the Network will now also contain Test Safecoin.'],
+      overline: 'Предстоящ етап',
+      title: 'Safe Network Флеминг',
+      para: ['Следващият важен етап от Safe мрежата. Освен мрежата със споделен трезор ще представим и самостоятелна мрежа, която ще даде възможност на хората да пускат трезори - за децентрализирано съхранение на информация от домашни компютри. Пускането на Флеминг ще бъде забележимо по много причини, не на последно място и фактът, че при съхранение на данни, мрежата вече ще съдържа и тестов Safecoin.'],
       accordion: {
         header: [
-          'Fleming Feature',
-          'Description',
-          'Status'
+          'Флеминг харектиристики',
+          'Описание',
+          'Статус'
         ],
         items: [
           {
-            feature: 'Self-Authentication',
-            desc: 'The ability to log into a decentralised network without the permission or existence of a third party',
-            status: 'Complete',
+            feature: 'Само-Удостоверяване',
+            desc: 'Възможността за влизане в децентрализирана мрежа без разрешението или съществуването на трета страна',
+            status: 'Завършен',
             para: [
-              'MaidSafe invented the technology that lets someone log into a decentralised network securely without requiring the involvement of a third party. The Shared Vault Network is the only place in the world today that you can see this in action.'
+              'MaidSafe създаде технологията, която позволява на всеки да влезе в сигурна децентрализирана мрежа, без да изисква разрешение от трета страна. Мрежата със споделен трезор е единственото място в света днес, където можете да видите това в действие.'
             ],
             // CTA: {
             //   name: 'Read More',
             //   url: 'https://safenetwork.tech/roadmap/#self-authentication'
             // },
           }, {
-            feature: 'Self-Encryption',
-            desc: 'Data is encrypted on your computer before being stored on the Network: no keys or passwords ever leave your machine',
-            status: 'Complete',
+            feature: 'Само-криптиране',
+            desc: 'Данните се криптират на вашия компютър, преди да се съхраняват в мрежата: нито един ключ или парола никога не напускат вашето устройство',
+            status: 'Завършен',
             para: [
-              'Invented by MaidSafe, this is the process by which any file to be stored in the Network is first broken into chunks, hashed, and then encrypted. These chunks are then themselves encrypted using the hash of another chunk from the same file.'
+              'Създаден от MaidSafe, това е процесът, при който всеки файл, който се съхранява в мрежата, първо се разбива на парчета, хешира се и след това се криптира. След това тези парчета се криптират още веднъж, като се използва хешът на друг фрагмент от същия файл.'
             ],
             video: {
               url: 'https://s3.eu-west-2.amazonaws.com/ms-marketing/website-videos/Self+Encryption+on+the+SAFE+Network.mp4',
-              caption: 'Self-Encryption explained'
+              caption: 'Само-криптиране обяснение'
             }
           }, {
-            feature: 'Disjoint Sections',
-            desc: 'Otherwise known as Sharding, this allows the Network to scale by splitting responsibilities for specific Network functions.',
-            status: 'Complete',
+            feature: 'Разделящи се секции',
+            desc: 'Процес известен и като шардинг (Sharding), позволяващ на мрежата да се разраства, като разделя отговорностите за конкретни мрежови функции.',
+            status: 'Завършен',
             para: [
-              'Ensures that the Network can scale by managing the responsibilities and locations of each node without requiring any human intervention. This also acts as a security measure to ensure that an attacker cannot choose their location or responsibilities.'
+              'Гарантира, че мрежата може да се разраства, като управлява отговорностите и местоположенията на всеки трезор, без да изисква човешка намеса. Това също действа като мярка за сигурност, за да се гарантира, че нападател не може да избере местоположението или отговорностите си.'
             ],
             CTA: {
-              name: 'Read More',
+              name: 'Прочетете още',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-6-disjoint-sections/28530'
             },
           }, {
-            feature: 'Message Relay',
-            desc: 'Ensures a message can be sent between nodes in different Disjoint Sections',
-            status: 'Complete',
+            feature: 'Реле за съобщения',
+            desc: 'Гарантира, че съобщението може да бъде изпратено между трезори в различни секции на мрежата',
+            status: 'Завършен',
             para: [
-              'Ensures that a message can be sent between nodes in different Disjoint Sections. In this early iteration, each message contains signatures of the members of the Disjoint Sections but does not yet verify the signatures themselves.'
+              'Гарантира, че съобщение може да бъде изпратено между възли в различни секции на мрежата. В тази ранна версия всяко съобщение съдържа подписи на членовете на отделните секции, но все още не проверява самите подписи.'
             ],
           },
           {
-            feature: 'PARSEC',
-            desc: 'Asynchronous consensus algorithm',
-            status: 'Complete',
+            feature: 'Стареене на трезорите',
+            desc: 'Децентрализирана система за класиране на поведението, производителността и способностите на трезорите в мрежата, която не изисква човешка намеса.',
+            status: 'Разработва се',
             para: [
-              'Ensures that a global decentralised, permissionless Network can reach agreement about events that are permitted and the order in which they are to be recorded. A DAG-based algorithm that achieves the highest standard of security possibile, invented by MaidSafe in such a way that it ensures it is mathematically certain that every part of the Network will reach eventual agreement. In Fleming, we’ll be releasing a highly asynchronous version of PARSEC, with full asynchronicity to come later.'
+              'Всеки трезор в Safe мрежата получава възраст от самата мрежа. Възрастта нараства всеки път, когато трезор се движи между отделните секции, като само най-старшите (старейшините) имат право да гласуват по време на постигането на консенсус с PARSEC алгоритъма.',
+              'Вижте подробностите в RFC и [се присъединете към дискусията](https://forum.safedev.org/t/rfc-45-node-ageing/157) във форума.'
             ],
             CTA: {
-              name: 'Read More',
-              url: 'https://hub.safedev.org/parsec/'
-            },
-          }, {
-            feature: 'Node Ageing',
-            desc: 'A decentralised system for ranking the behaviour, performance and abilities of nodes on the Network that requires no human intervention.',
-            status: 'Development',
-            para: [
-              'Each node on the SAFE Network is given an age by the Network itself. The node age increments every time that a node moves between Disjoint Sections, with only the most senior (Elders) entitled to vote during the PARSEC consensus algorithm.',
-              'Dig into the detail in the RFC, and [join the discussion](https://forum.safedev.org/t/rfc-45-node-ageing/157) on the forum.'
-            ],
-            CTA: {
-              name: 'Read the RFC',
+              name: 'Прочетете RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0045-node-ageing/0045-node-ageing.md'
             },
           }, {
-            feature: 'Secure Message Delivery',
-            desc: 'Trusted communication between nodes - messages with authenticated source',
-            status: 'Development',
+            feature: 'Сигурна доставка на съобщения',
+            desc: 'Сигурна комуникация между трезори - съобщения с удостоверен източник',
+            status: 'Завършен',
             para: [
-              'Ensures messages are sent and signed in such a way that lets nodes rely on the contents of each message despite having no previous relationship with the sender. This solves a problem faced by many existing blockchain-based projects and is essential when you have a Network that will autonomously move nodes around as required.'
+              'Гарантира, че съобщенията се изпращат и подписват по такъв начин, че позволява на трезорите да разчитат на съдържанието на всяко съобщение, въпреки че нямат предишни отношения с подателя. Това решава проблем, с който се сблъскват много съществуващи проекти, базирани на блокчейн, и е от съществено значение, когато имате мрежа, която ще мести автономно трезори, каквато е целта ни.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Прочетете RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0056-secure-message-delivery/0056-secure-message-delivery.md'
             },
           }, {
-            feature: 'Reliable Message Delivery',
-            desc: 'Communication guaranteeing the successful delivery of messages.',
-            status: 'Complete',
+            feature: 'Надеждна доставка на съобщения',
+            desc: 'Комуникация, гарантираща успешната доставка на съобщения.',
+            status: 'Завършен',
             para: [
-              'Ensures that all sent messages will be successfully delivered to their destinations, even when some nodes responsible for the delivery are failing.'
+              'Гарантира, че всички изпратени съобщения ще бъдат доставени успешно до техните дестинации, дори когато някои трезори, отговорни за доставката, не успеят.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Прочетете RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0058-reliable-message-delivery/0058-reliable-message-delivery.md'
             },
           }, {
             feature: 'QUIC-P2P',
-            desc: 'The low-level language which users connecting to SAFE will use for all network communications',
-            status: 'Complete',
+            desc: 'Езикът на ниско ниво, който потребителите, свързващи се към SAFE, ще използват за всички мрежови комуникации',
+            status: 'Завършен',
             para: [
-              'Software that lets computers communicate in an encrypted manner on the SAFE Network. The software provides the infrastructure for messages to travel whilst the Routing layer of the Network sets the rules about which directions those messages can travel in.'
+              'Софтуер, който позволява на компютрите да комуникират по криптиран начин в Safe мрежата. Софтуерът предоставя инфраструктура, през която съобщенията да пътуват, докато слоят за маршрутизация в мрежата определя правилата и посоката на пътуването им.'
             ],
           }, {
-            feature: 'Malice Detection',
-            desc: 'Preventing malicious nodes subverting the consensus algorithm, PARSEC',
-            status: 'Complete',
+            feature: 'Засичане на злонамереност',
+            desc: 'Предотвратяване на атаки от злонамерени трезори върху алгоритъма за консенсус',
+            status: 'Завършен',
             para: [
-              'The way that nodes identify malicious nodes that are damaging the Network within a Disjoint Section and the mechanism by which they agree to eject that node, or mitigate the risk.'
+              'Начинът, по който трезорите идентифицират злонамерени участници, които увреждат мрежата в дадена секция и механизмът, по който те се съгласяват да ги изхвърлят или да смекчават риска.'
             ],
             CTA: {
-              name: 'Read the RFC',
+              name: 'Прочетете RFC',
               url: 'https://github.com/maidsafe/rfcs/blob/master/text/0050-malice_in_parsec/0050-malice_in_parsec.md'
             }
           }, {
-            feature: 'Test Safecoin & Wallet',
-            desc: 'Allow the Network to charge, and a user to send and receive payments to a wallet, in units called Test Safecoins',
-            status: 'Complete',
+            feature: 'Тестов Safecoin и портфейл',
+            desc: 'Позволява на мрежата да таксува, а потребителят да изпраща и получава плащания в портфейла си, в единици, наречени тестови сейфкойни',
+            status: 'Завършен',
             para: [
-              'Safecoin is the incentive mechanism that encourages individuals to provide the computing resources that the Network requires: storage, broadband, and CPU resources.',
+              'Safecoin е механизмът за стимулиране, който насърчава хората да предоставят изчислителните си ресурси, от които мрежата се нуждае: място за съхранение, интернет достъп и процесорно време.',
             ]
           }, {
-            feature: 'Farming',
-            desc: 'The process of providing resource and receiving Safecoin in return',
-            status: 'Development',
+            feature: 'Фермерство',
+            desc: 'Процесът на предоставяне на ресурси и получаване на Safecoin в замяна',
+            status: 'В разработка',
             para: [
-              'Individuals who choose to supply the resources that the Network requires have the opportunity to be rewarded with Safecoin. This work ensures that the Network rewards those who provide it with valuable resources.',
+              'Хората, които решат да предоставят свободните ресурси на компютъра си, които мрежата изисква, имат възможност да получат възнаграждение в Safecoin. Товс гарантира, че мрежата възнаграждава онези, които й предоставят ценни ресурси.',
             ],
           }, {
-            feature: 'Vaults From Home',
-            desc: 'The ability for anyone to download software and run Vaults from home, creating decentralised storage for the Network',
-            status: 'Development',
+            feature: 'Трезори от вкъщи',
+            desc: 'Възможността всеки да изтегли софтуер и да стартира трезор от дома, създавайки децентрализирано хранилище за мрежата',
+            status: 'В разработка',
             para: [
-              'Decentralised data storage is a key element of the SAFE Network. This release will enable nodes to participate regardless of the resources they offer.'
+              'Децентрализираното съхранение на данни е ключов елемент от Safe мрежата. Тази версия ще даде възможност на трезорите да участват независимо от предлаганите от тях ресурси.'
             ],
           }, {
-            feature: 'Published and Unpublished Data Types',
-            desc: 'Allow the network to store Published and Unpublished data via AppendOnlyData or MutableData types',
-            status: 'Complete',
+            feature: 'Публикувани и непубликувани типове данни',
+            desc: 'Ще разреши на мрежата да съхранява публикувани и непубликувани данни чрез AppendOnlyData или MutableData типовете',
+            status: 'Завършен',
             para: [
-              'Published data refers to content that is published (made available) for everyone such as websites, blogs, or research papers. For such public content, it becomes important to retain a history of changes. History must not be allowed to be tampered with and the published data must remain forever. Unpublished data is data that is not desired to be made public such as personal data or organisations’ data stored on the network'
+              'Публикуваните данни се отнасят до съдържание, което се публикува (прави се достъпно) за всички, като уебсайтове, блогове или научни документи. За такова обществено съдържание е важно да се пази историята на промените. Историята не трябва да бъде подправяна и публикуваните данни трябва да останат завинаги. Непубликуваните данни са данни, които не е желателно да бъдат публично достояние, като лични данни или данни на организации, съхранявани в мрежата'
             ],
             //CTA: {
               //name: 'Read the RFC',
               //url: 'https://github.com/maidsafe/rfcs/blob/master/text/0054-published-and-unpublished-mutable-data/0054-published-and-unpublished-mutable-data.md'
             //},
           }, {
-            feature: 'Unpublished ImmutableData Data Type',
-            desc: 'Enhance ImmutableData to make it an unpublished or published, with the difference that unpublished can be deleted',
-            status: 'Complete',
+            feature: 'Непубликувани ImmutableData типове данни',
+            desc: 'Подобрява ImmutableData, за да го направи непубликуван или публикуван, с разликата, че непубликуваните данни могат да бъдат изтрити',
+            status: 'Завършен',
             para: [
-              'There are many times when a user will require to create Immutable Data to store private content. As long as this content is not published (made available for others) this will be deleteable by the data owner only.'
+              'Има много ситуации, в които на потребителя ще е необходимо да създаде неизменими данни, за да съхрани частно съдържание. Докато това съдържание не бъде публикувано (предоставено на други хора), то ще може да бъде изтрито само от собственика на данните.'
             ],
             //CTA: {
               //name: 'Read the RFC',
@@ -197,41 +183,41 @@ export default {
       }
     },
     release3: {
-      overline: 'Next Up',
-      title: 'SAFE Maxwell Network',
-      para: ['The release of SAFE Maxwell builds on top of Fleming and enables the network to upgrade, improves security and sets the ground work for switching test SAFE Coin to real SAFEcoin.'],
+      overline: 'Какво следва',
+      title: 'Safe Network Максуел',
+      para: ['Safe Максуел версията надгражда над Флеминг и дава възможност на мрежата да се надгражда, подобрява сигурността и поставя основата за превключване от тестов Safecoin към истински Safecoin.'],
       accordion: {
         header: [
-          'Maxwell Feature',
-          'Description',
-          'Status'
+          'Максуел характеристики',
+          'Описание',
+          'Статус'
         ],
         items: [
           {
-            feature: 'Spam Handling',
-            desc: 'Ability to handle spam attacks',
-            status: 'Concept',
+            feature: 'Спиране на спама',
+            desc: 'Възможност за справяне със спам атаки',
+            status: 'Концепция',
             para: [
-              'Spam includes nodes attempting to carry out activities that they shouldn’t or valid activities at a scale that is intended to choke the Network. The Network should be able to withstand a reasonable volume of such attacks.'
+              'Спамът включва трезори, които се опитват да извършват дейности, които не са желани или валидни, и извършвани в мащаб, който е предназначен да задуши мрежата. Мрежата трябва да може да издържа на разумен обем от такива атаки.'
             ],
           }, {
-            feature: 'Identity Management',
-            desc: 'Ability for users to create and manage multiple identities for use on the network',
-            status: 'Concept',
+            feature: 'Управление на идентичността',
+            desc: 'Възможност за потребителите да създават и управляват множество идентичности за използване в мрежата',
+            status: 'Концепция',
             para: [
-              'Users will be able to create multiple identities in the Network. Each identity can be used as required by the User and each should be independent unless the User explicitly wants to connect them. This helps protect identity and privacy.'
+              'Потребителите ще могат да създават множество самоличности в мрежата. Всяка идентичност ще може да се използва според изискванията на Потребителя и всяка една трябва да бъде независима, освен ако Потребителят изрично не иска да ги свърже. Това помага за защита на идентичността и поверителността.'
             ],
           },
           {
-            feature: 'Upgrades',
-            desc: 'The ability for the Network to upgrade itself, with no harm caused',
-            status: 'Concept',
+            feature: 'Обновявания',
+            desc: 'Възможността на мрежата да се надгражда, без да се поврежда',
+            status: 'Концепция',
             para: [
-              'The Network will have the ability to upgrade itself in order to allow features and improvements to disseminate throughout the Network. The upgrades must be done in a way such that they don’t cause harm to the Network.',
-              'This is an important stage in the evolution of the Network as it means that new software can then continue to be rolled out onto the existing Network without disrupting the existing functionality.'
+              'Мрежата ще има възможност за надграждане, за да позволи на нови функционалности и подобрения да се разпространяват в цялата мрежа. Надстройките трябва да се правят по такъв начин, че да не причиняват вреда на мрежата.',
+              'Това е важен етап от развитието на мрежата, тъй като това означава, че новият софтуер може да продължи да се разгръща в съществуващата мрежа, без да нарушава съществуващата функционалност.'
             ],
             CTA: {
-              name: 'Follow the Discussion',
+              name: 'Проследете дискусията',
               url: 'https://safenetforum.org/t/step-by-step-the-road-to-fleming-5-network-upgrades/28319'
             }
           }
@@ -239,14 +225,14 @@ export default {
       }
     },
     release4: {
-      overline: 'Coming Soon',
-      title: 'Upcoming Network Features',
-      para: ['The following list represents network work that remains to be completed. The order should not be seen as fixed in any way as in certain cases, work will be carried out in parallel by different teams.'],
+      overline: 'Очаквайте скоро',
+      title: 'Очаквани функции на мрежата',
+      para: ['Следния списък представя оставащата работа за завършването на мрежата. Списъкът не трябва да се разглежда като фиксиран по никакъв начин, тъй като в определени случаи работата ще се извършва паралелно от различни екипи.'],
       accordion: {
         header: [
-          'Feature',
-          'Description',
-          'Status'
+          'Характеристика',
+          'Описание',
+          'Статус'
         ],
         items: [
           {
