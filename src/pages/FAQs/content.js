@@ -1,64 +1,64 @@
   export default {
-  title: 'Frequently Asked Questions',
+  title: 'Често задавани въпроси',
   sections: [
     {
-      title: 'About the SAFE Network',
+      title: 'За Safe мрежата',
       items: [
         {
-          question: 'What is the SAFE Network?',
+          question: 'Какво е Safe мрежата?',
           answer: [
-            'The SAFE (Secure Access For Everyone) Network is a new secure way to access apps that value the security of your data above all else. Downloading the free SAFE software will provide access to: messaging, apps, email, social networks, data storage, video conferencing, and much more.',
-            'Rather than using data centres and servers which are prone to data theft and surveillance, as is common on today\'s Internet, the SAFE Network uses advanced peer-to-peer technology that joins together the spare computing capacity of all SAFE users, creating a global network.',
-            'The SAFE Network is made up of the unused hard drive space, processing power and data connection of its users. It offers a level of security and privacy not currently available on the existing Internet and turns the tables on companies, putting users in control of their data, rather than trusting it to organisations.',
-            'By providing your unused computing resources to SAFE, you will be paid in a network token called [Safecoin](/safecoin).'
+            'Safe мрежата (акроним за Сигурен достъп за всички) е нов сигурен начин за достъп до програми, които ценят сигурността на вашите данни преди всичко останало. Изтеглянето на безплатния Safe софтуер ще ви осигури достъп до: съобщения, приложения, имейл, социални мрежи, съхранение на данни, видеоконференции и много други.',
+            'Вместо да използва центрове за данни и сървъри, които са податливи на кражба на данни и следене, както е обичайно в днешния Интернет, Safe мрежата използва усъвършенствана потребител-към-потребител технология, която обединява заедно свободния изчислителен капацитет на всички потребители на Safe, създавайки глобална мрежа.',
+            'Safe мрежата се състои от неизползваното пространство на твърдия диск, свободното процесорно време и интернет връзката за данни на нейните потребители. Тя предлага ниво на сигурност и неприкосновеност на личния живот, които в момента не са налични в съществуващия Интернет и връща контрола на потребителите върху техните данни, вместо да ги доверява на организации и корпорации.',
+            'Предоставяйки вашите неизползвани компютърни ресурси на Safe, ще бъдете възнаградени с пари наречени [Safecoin](/safecoin).'
           ]
         },
         {
-          question: 'What is an Autonomous Network?',
+          question: 'Какво е автономна мрежа?',
           answer: [
-            'An Autonomous Network is one which has no human gatekeepers. Anyone is able to join and—crucially—no-one can be prevented from taking part.',
-            'From the moment you upload your encrypted data, no human is required to ensure that your data remains secure and accessible until you alone choose to access it. Without the involvement of humans, the SAFE Network intelligently moves chunks of your data between nodes that it also constantly reassigns to different groups in order to provide total security and privacy at all times. You decide what information you will store—and the autonomous Network secures it to ensure that you retain total control.',
-            '_[Read more about Autonomous Networks](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
+            'Автономна мрежа е тази, която няма хора посредници. Всеки може да се присъедини и - най-важното - никой не може да бъде възпрепятстван да участва.',
+            'От момента, в който качвате своите криптирани данни, не се изисква човек, който да гарантира, че вашите данни остават сигурни и достъпни, докато вие сами не решите да получите достъп до тях. Без участието на хора, Safe Network интелигентно премества парчета от вашите данни между трезорите, които също непрекъснато мести в различни групи, за да осигури пълна сигурност и поверителност по всяко време. Вие решавате каква информация ще съхранявате - и автономната мрежа я защитава, за да гарантира, че ще запазите пълен контрол.',
+            '_[Прочетете повече за автономните мрежи](https://metaquestions.me/2017/08/12/the-impossible-network/)_'
           ]
         },
         {
-          question: 'Why should I use the SAFE Network?',
+          question: 'Защо да използвам Safe мрежата?',
           answer: [
-            'Applications and programs on the existing Internet compromise your privacy through advertising and effectively control your data, granting you access when you login. On the SAFE Network, only you control who has access to your data and the distributed security features make your data safer than ever before. If you contribute some of your spare computing power to the network, you will be compensated for doing so with the Network’s built-in token, [Safecoin](/safecoin).'
+            'Приложенията и програмите в съществуващия Интернет компрометират поверителността ви чрез реклами и ефективно контролират вашите данни, предоставяйки ви достъп при влизане. В Safe мрежата само вие контролирате този, който има достъп до вашите данни и децентрализираните функции за защита, правят вашите данни по-сигурни от всякога. Ако продадете част от свободните си компютърни ресурси на мрежата, ще бъдете компенсирани за това с пари под формата на [Safecoin](/safecoin) в мрежата.'
           ]
         },
         {
-          question: 'Who owns the SAFE Network?',
+          question: 'Кой е собственик на Safe мрежата?',
           answer: [
-            '**No one.**',
-            'The SAFE Network is [open source](https://github.com/maidsafe). Our vision is to create a resource that can be used by everyone to spread all human knowledge and to facilitate sharing across the planet, regardless of country of residence, culture, or economic background.'
+            '**Никой.**',
+            'Safe мрежата е с [отворен код](https://github.com/maidsafe). Нашата визия е да създадем ресурс, който може да бъде използван от всички за разпространение на цялото човешко знание и за улесняване на споделянето по цялата планета, независимо от страната на пребиваване, културата или икономическия произход.'
           ]
         },
         {
-          question: 'Who are MaidSafe?',
+          question: 'Кои са MaidSafe?',
           answer: [
-            'Started in 2006 by Scottish engineer David Irvine, MaidSafe are the core developers of the SAFE Network.  It’s a small team comprised of: thinkers, inventors, tinkerers, PHDs, engineers and designers. Although based in Ayr, Scotland, we work remotely with talents from many different cultures and countries, reflecting the users that we serve. Despite this variety, we all share a single mission: providing security and privacy for everyone.',
-            '_[Visit Maidsafe.net](https://maidsafe.net)_'
+            'Започната през 2006 г. от шотландския инженер Дейвид Ървайн, MaidSafe е компанията на основните разработчици на Safe мрежата. Това е малък екип, състоящ се от: мислители, изобретатели, професори, инженери и дизайнери. Въпреки че сме базирани в Ейр, Шотландия, ние работим отдалечено с таланти от много различни култури и страни, отразявайки потребителите, които обслужваме. Въпреки това разнообразие, всички ние споделяме една единствена мисия: сигурност за всички.',
+            '_[Посетете Maidsafe.net](https://maidsafe.net)_'
           ]
         },
         {
-            question: 'What do I need in order to browse the SAFE Network?',
+            question: 'Какво ми е необходимо, за да браузвам Safe мрежата?',
             answer: [
-              '[Download the SAFE Network App!](https://github.com/maidsafe/safe-network-app/releases)'
+              '[Изтеглете Safe Network програмата!](https://github.com/maidsafe/safe-network-app/releases)'
             ]
           },
         {
-          question: 'How do I get involved with The SAFE Network community?',
+          question: 'Как да се включа в общността на Safe Network?',
           answer: [
-            'The Community is most active on the [SAFE Network Forum](https://safenetforum.org/) and we’d suggest starting in the [beginners section](https://safenetforum.org/c/beginners).',
-            '*[Visit the Forum](https://safenetforum.org/)*'
+            'Общността е най-активна в [Safe Network форума](https://safenetforum.org/) и препоръчваме да започнете в [секцията за начинаещи](https://safenetforum.org/c/beginners).',
+            '*[Посетете форума](https://safenetforum.org/)*'
           ]
         },
         {
-          question: 'How do I get help?',
+          question: 'Как да получа помощ?',
           answer: [
-            'The [SAFE Network Community](https://safenetforum.org) is the place to head to for all questions on the Network.',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            '[Форумът на общността](https://safenetforum.org) е мястото, в което да се обърнете за всички въпроси свързани с мрежата.',
+            '_[Посетете форума](https://safenetforum.org/)_'
           ]
         }
       ]
@@ -89,17 +89,17 @@
     //   ]
     // },
     {
-      title: 'How it works',
+      title: 'Как работи',
       items: [
         {
-          question: 'What is a Vault?',
+          question: 'Какво е Трезор?',
           answer: [
-            'The SAFE Network is made up of nodes called Vaults. A Vault is a program that runs on a device which connects the machine to the Network. Collectively, Vaults manage the storage of all data on the Network by managing the movement of chunks of encrypted user data that are stored across the Network. No Farmer (user) can ever decrypt a chunk of data that his or her Vault receives and, in return for providing the storage capacity to the Network, is rewarded with Safecoin.',
-            'Vaults ensure that the events occurring on the Network are valid. They are clustered into small groups, each with responsibility for looking after the data stored within a Section (a certain range of addresses).',
-            'These groups of nodes form, merge and split without any human oversight as the SAFE Network itself has complete control of the process. In the same way, the encrypted data chunks move around the Network in a fully autonomous way. No central servers or agents (like BitTorrent trackers) are required by the Network. No central authority oversees the proceedings.',
-            'Just as children are not allowed to vote in elections, a Vault is not allowed to vote on Network events (such as a new member joining or the storage of a data chunk) until it has proven itself to be reliable. Initially, a Vault has to successfully complete a [Proof of Resource](https://www.youtube.com/watch?v=rdczpOlLaVk) request to join the Network , proving that it can provide a certain amount of bandwidth and CPU capacity. It is then assigned to a Section and given a low Node Age. This is a measure of its trustworthiness. After that initial connection, the Network will autonomously move (churn) that Vault at random from Section to Section, giving it the opportunity to build its reputation (Node Age). Once its Node Age reaches a certain value, it can be an active participant in group decisions. A Vault with the greatest Node Age in a Section is known as an Elder. As a result, because new Vaults must prove their worth in various random Sections before they can vote, targeting a particular Section on the SAFE Network by an attacker is close to impossible.',
-            'Vaults also cryptographically check messages and take on more defined roles, called personas. Each Vault will have a Client Manager persona. This keeps a record of the account details for each Client (user) within its Section. For example, this will confirm how much data has been uploaded to the Network, how much is being stored and the balance of Safecoin remaining to fund further uploads. Whilst a Client Manager will know the account balance, it has no way of linking this to an identity (i.e. an IP address, username or public identity).',
-            'Each Vault also has a Data Manager persona. This manages where encrypted chunks of other users’ data is held and has responsibility for the chunks in its Section.'
+            'Safe мрежата е съставена от възли, наречени трезори. Трезорът е програма, която работи на устройство (компютър, смартфон, таблет), и го свързва с мрежата. Колективно трезорите управляват съхранението на всички данни в мрежата, като управляват движението на парчета криптирани потребителски данни, които се съхраняват в мрежата. Никой фермер (потребител) никога не може да декриптира парче данни, което неговият трезор получава. В замяна на предоставянето на място за съхранение към мрежата, фермера се възнаграждава със Safecoin.',
+            'Трезорите гарантират, че събитията, случващи се в мрежата, са валидни. Те са групирани в малки групи, всяка от които носи отговорност за данните, съхранявани в дадена секция (определен диапазон от адреси).',
+            'Тези групи трезори се формират, сливат и разделят без никакъв човешки надзор, тъй като самата Safe мрежа има пълен контрол върху процеса. По същия начин шифрованите парчета данни се движат по мрежата по напълно автономен начин. Мрежата не изисква централни сървъри или агенти (като BitTorrent тракери). Нито един централен орган не контролира работата.',
+            'Точно както децата нямат право да гласуват на избори, на Трезорите не се разрешава да гласуват за събитията в мрежата (като например присъединяване на нов член или съхранение на парче данни), докато не се окаже надежден. Първоначално Трезорът трябва успешно да изпълни заявка  [Доказателство за ресурс](https://www.youtube.com/watch?v=rdczpOlLaVk) , за да се присъедини към мрежата, доказвайки, че може да осигури определено количество трафик и капацитет на процесора. След това се присъединява към секция и му се дава ниска оценка за възраст. Това е мярка за неговата надеждност. След това първоначално свързване, мрежата автоматично ще премести (раздели) този трезор на случаен принцип от една секция към друга секция, като му даде възможност да изгради репутацията си (нарастване на възрастта му). След като възрастта му достигне определена стойност, ще може да бъде активен участник в груповите решения. Трезорите с най-голяма възраст в секцията се наричат “Старейшини”. В резултат на това, тъй като новите трезори трябва да докажат своята полезност в различни случайни секции, преди да могат да гласуват, насочването към определена секция в Safe мрежата от нападател е почти невъзможно.',
+            'Трезорите също криптографски проверяват съобщенията и поемат по-дефинирани роли, наречени персони. Всеки трезор ще има персонален клиент мениджър. Той съхранява данните за акаунта на всеки клиент (потребител) в неговата секция. Например, той ще потвърди колко данни са качени в мрежата, колко се съхраняват и колко Safecoin остава, за да се финансират допълнителни качвания. Докато клиентският мениджър ще знае баланса на акаунта, той няма начин да го свърже с идентичност (т.е. IP адрес, потребителско име или публична идентичност).',
+            'Всеки трезор също има персонализиран мениджър на данни. Той управлява къде се съхраняват криптирани парчета от данни на други потребители и носи отговорност за парчетата в своята секция.'
           ]
         },
         {
