@@ -117,201 +117,188 @@
         {
           question: 'Какво е доказателство за ресурс?',
           answer: [
-            'Proof of Resource is the process that measures a Vault’s ability to store and retrieve data chunks. A User’s computer receives a score based on its CPU speed, bandwidth availability, disk space and time online.',
-            'Proof of Resource in the SAFE Network uses a mechanism similar to a Zero Knowledge Proof. The checking mechanism does not need to know what data is being checked—it simply needs to know that the correct data is being held and accurately.'
+            'Доказателство за ресурс е процесът, който измерва способността на трезор да съхранява и извлича части от данни. Компютърът на потребителя получава резултат въз основа на скоростта на процесора, наличната му интернет връзка, дисковото пространство и времето онлайн.',
+            'Доказателството за ресурс в Safe мрежата използва механизъм, подобен на Zero Knowledge Proof. Механизмът за проверка не трябва да знае какви данни се проверяват - просто трябва да знае, че правилните данни се съхраняват точно.'
           ]
         },
         {
-          question: 'What is self&#8209;encryption?',
+          question: 'Какво е самокриптиране?',
           answer: [
-            'Self-encryption is the way in which a piece of data is split and then each chunk is encrypted using the other pieces of that same piece of data. It is a crucial process in the SAFE Network and ensures that the data is unrecognisable and resistant to decryption—even in the event of an encryption algorithm being compromised.',
-            'All data is self-encrypted before it is reaches the SAFE Network. The process is automatic and happens instantaneously.',
-            'As data is saved to a User\'s virtual hard drive, it is broken up into a minimum of three chunks, [hashed](https://en.wikipedia.org/wiki/Hash_function) and then encrypted. To further obfuscate the data, every chunk is passed through an [XOR](https://en.wikipedia.org/wiki/Exclusive_or) function using the hashes of other chunks. Each chunk is then broken up and key value pairs are added to a table in the Users account, called a data map. The data map contains the locations of each chunk that makes up the file. The data map, with hashes before and after encryption, is used when retrieving and decoding the User\'s data, as the encryption process is non-reversible.',
-            'This entire process takes place on the Client (i.e. the User\'s computer) so that data is always encrypted on the network and only Users with the correct credentials can decrypt the file. This also means that passwords can never be stolen from the network as they never pass beyond the Users computer. For additional security the data map is also run through the self-encryption process.',
-            '[Watch a Video Explainer](https://youtu.be/Jnvwv4z17b4)'
+            'Самокриптирането е процес, при който част от данните се разделят и след това всеки фрагмент се криптира с помощта на останалите части от същите данни. Това е важен процес в Safe мрежата и гарантира, че данните са неразпознаваеми и устойчиви на декриптиране - дори в случай, че алгоритъмът за криптиране бъде разбит.',
+            'Всички данни се криптират самостоятелно, преди да достигнат до Safe мрежата. Процесът е автоматичен и се случва мигновено.',
+            'Тъй като данните се записват на виртуален твърд диск при потребителя, те се разбиват на минимум три парчета, [хешират се](https://en.wikipedia.org/wiki/Hash_function) и след това се криптират. За по-нататъшно скриване на данните, всеки парче се предава чрез [XOR](https://en.wikipedia.org/wiki/Exclusive_or) функция, като се използват хешовете на други парчета. След това всеки фрагмент се разбива и двойките ключови стойности се добавят към таблица в акаунта на потребителите, наречена карта с данни. Картата с данни съдържа местоположенията на всяко парче, което съставя файла. Картата с данни с хешове преди и след криптиране се използва при извличане и декодиране на данните на потребителя, тъй като процесът на криптиране е необратим.',
+            'Целият този процес се осъществява от клиента (т.е. на компютъра на Потребителя), така че данните винаги да бъдат криптирани в мрежата и само потребителите с правилните идентификационни данни да могат да дешифрират файла. Това също означава, че паролите никога не могат да бъдат откраднати от мрежата, тъй като те никога не напускат компютъра на потребителя. За допълнителна сигурност картата с данни също преминава през процеса на самокодиране.',
+            '[Гледайте видео обяснение](https://youtu.be/Jnvwv4z17b4)'
           ]
         },
         {
-          question: 'What is PARSEC?',
+          question: 'Какво е дедупликация на данни?',
           answer: [
-            '**P**rotocol for **A**synchronous, **R**eliable, **S**ecure & **E**fficient **C**onsensus.',
-            'PARSEC is the consensus algorithm which allows decentralised networks to reach agreement on a series of events, actions or activities in a secure and reliable manner that is not only highly asynchronous but also Byzantine Fault Tolerant. In other words, the Network is mathematically guaranteed to reach consensus (provided no more than one-third of nodes are malicious or unresponsive for whatever reason).',
-            '[Read the whitepaper](http://docs.maidsafe.net/Whitepapers/pdf/PARSEC.pdf)',
-            '_PDF_',
-            '[Watch a video giving a technical overview](https://youtu.be/JKagaPUrDsY)',
-            '_YouTube_',
-            '[Let Dug from MaidSafe talk you through it](https://youtu.be/3YRaTCET5ZU)',
-            '_YouTube_'
+            'Safe мрежата използва [дедупликация на данни](https://en.wikipedia.org/wiki/Data_deduplication), за да гарантира, че пространството се използва ефективно при съхранение на множество копия на данните, които са уникално криптирани. Мрежата е в състояние да различи идентични части от данни, като сравнява хешовете на всяко парче. Трезорите също използват хешове, за да се идентифицират (това се нарича - гарантирана идентификация на трезорите).'
           ]
         },
         {
-          question: 'What is data deduplication?',
+          question: 'Какво е самоудостоверяване?',
           answer: [
-            'The SAFE Network uses [data deduplication](https://en.wikipedia.org/wiki/Data_deduplication) to ensure that space is used efficiently when storing multiple copies of data which have been uniquely encrypted. The network is able to distinguish identical pieces of data by comparing the hashes of each chunk. Vaults also use hashes to identify themselves (known as Guaranteed Vault Identification).'
+            'Самоудостоверяване означава, че можете да влезете в мрежата и да защитите данните си без посредник. Никога не трябва да давате паролата си на някого или да искате разрешение от трета страна за достъп до вашите данни. Вашата информация и достъпът до нея принадлежат на вас и на никой друг. Вашата тайна дума и парола се използват за намиране на вашите данни в мрежата и след това се използват за декриптиране на тези данни локално. Това означава, че никой не трябва да държи запис на вашите файлове или вашите данни за вход - и няма нужда да искате от някой разрешение за достъп до него. Това е известно като самоудостоверяване и ви позволява да намерите, отключите и декриптирате собствените си данни. '
           ]
         },
         {
-          question: 'What is Self-Authentication?',
+          question: 'Какво е консенсус на близка група?',
           answer: [
-            'Self-Authentication means that you can log in and secure your data with no middle man. You never have to give your password to anyone or ask a third party’s permission to access your data. Your information, and access to it, belongs to you and no one else. Your Secret and Password are used to locate your data on the Network and then used to decrypt that data locally. That means that no one needs to hold a record of your files or your login details—and there’s no need to ask anyone for permission to access it. This is known as Self-Authentication and enables you to find, unlock and decrypt your own data. '
+            'Основно изискване на разпределените компютърни мрежи е консенсусът. С други думи как могат компютрите да постигнат съгласие, когато няма централизиран орган и когато има вероятност да имате компютри, които са или злонамерени, или дефектни. Много проекти разчитат на блокчейн, за да постигнат този консенсус, но, както знаем, [този подход не работи](https://www.youtube.com/watch?v=i-RLdU8Y0Qc) със Safe мрежата, където броят на транзакциите е по-голям и очакванията на потребителите са да изтеглят данните незабавно. И така, как се постига консенсус в постоянно растяща група децентрализирани компютри, без да се нарушава сигурността?',
+            'Отговорът се крие в близките групи. Използвайки консенсус на близка група, малките секции са в състояние да правят изявления от името на цялата мрежа, което означава, че мрежата не трябва да комуникира директно с всеки един компютър всеки път.',
+            'В Safe мрежата понятието ‘близост’ идва от нещо, наречено XOR мрежа. Това е начин за случайно позициониране на физическото местоположение на данните в разпределена мрежа и гарантира, че всяко местоположение е уникално. На същия принцип този метод също се използва, за да даде на всеки трезор уникално XOR местоположение. По този начин близка група се изгражда от най-близкия идентификационен номер на трезор до друг трезор по отношение на XOR разстоянието. Това е разстояние, измерено в математическия смисъл, за разлика от географския смисъл.',
+            'Група от трезори, която управлява секция, винаги ще се опитва да постигне консенсус (споразумение) помежду си относно всяка състояние и действия. Тя също така ‘подписва групово‘ съобщения, които пътуват през мрежата, така че другите трезори в други секции да могат криптографски да проверяват всяко съобщение и действие (например формиране на секции, разделянето и сливането им). Тези групови подписи се съхраняват във вериги от данни, които са защитени и съхранявани от всички трезори в групата.',
+            'Консенсусът на близка група не се използва за всяка операция в мрежата, тъй като това би довело до ненужно натоварване. Използва се само за съхранението на данни в мрежата - криптографските подписи се използват за други дейности - например прости изменения на данните или изпращане на Safecoin до друг потребител.'
           ]
         },
         {
-          question: 'What is Close Group Consensus?',
+          question: 'Какво представляват веригите от данни?',
           answer: [
-            'A key requirement for distributed computer networks is consensus. In other words how can nodes reach agreement when there is no centralised authority and when you are likely to have nodes that are either malicious or fail. Many projects will rely on a blockchain in order to achieve this consensus but, as we know, [this approach doesn’t work](https://www.youtube.com/watch?v=i-RLdU8Y0Qc) with the SAFE Network where the number of transactions is greater and the expectation of users will be to retrieve data instantaneously. So how do you reach consensus on an increasingly large group of decentralised nodes without compromising security?',
-            'The answer lies within close groups. Using Close Group Consensus, small groups are able to make statements on behalf of the entire Network which means that the Network does not need to communicate directly with every single node each time.',
-            'On the SAFE Network, the concept of ‘closeness’ comes from something called XOR networking. This is a way of randomising the physical location of data on a distributed network and ensuring that each location is unique. However, in this sense, it is also used because every Vault has a XOR location also. A Close Group is then comprised of the closest Vault ID’s to the user’s Vault ID in terms of XOR distance. This is distance measured in the mathematical sense, as opposed to the geographical sense.',
-            'The Group of Vaults managing a Section will always try to reach consensus (agreement) amongst themselves on any state and action. They also ‘group sign’ messages that travel over the wider network so that other Vaults in other Groups can cryptographically verify each message and action (such as groups forming, splitting and merging). These group signatures are stored in Data Chains which are secured and held by all Vaults in the Group.',
-            'Close Group Consensus is not used for every operation on the Network as this would cause unnecessary load. It is only used for putting data on the Network—cryptographic signatures are used for other activities—for example, simple amendments to data or sending a Safecoin to another user.'
-          ]
-        },
-        {
-          question: 'What are Data Chains?',
-          answer: [
-            'In the same way that the Bitcoin blockchain does not hold bitcoins, a data chain doesn’t hold data. However, it does provide evidence that a piece of data exists and where it should exist. Crucially, with the SAFE Network the data identified is real (documents, videos etc). That means that we can use that data identifier to prove the actual data itself is valid Network data (i.e. it has been accepted previously by the Network).',
-            'So what is the architecture of a Data Chain? Imagine a block of data. This contains the data identifiers (for example, hash, name, type of data etc). Connected to this block is a link. This link a collection of signatures by all of the members of a group who agree that the details within this block of data are correct. With every change in the membership of the group, a new link is created and added to the Data Chain.',
-            'There is much more to the detail of this architecture but to summarise, the Data Chain will split as the Network grows whilst the collective record will remain, accessible to all nodes. The links prove the membership and agreement that has taken place in the past. Using Data Chains, nodes have a provable history on the Network which means that they can prove group membership and be ranked easily for security purposes. Some nodes will not need to hold the actual data but instead hold only identifiers as the existence of that data is guaranteed. And crucially, Data Chains will ultimately enable the secure republishing of data should the Network ever lose power, as well as providing validation that data has been stored on the Network.',
-            'We believe that Data Chains appear to be a natural progression for decentralised systems. They allow data of any type, size or format to be looked after and maintained in a secure and decentralised manner-in the sense of not only protecting physical data but also the validity of such data on the Network.'
+            'По същия начин, по който блокчейнът на Bitcoin не държи биткойни, верига от данни не съхранява данни. Но тя предоставя доказателства, че парче данни съществува и къде се съхранява. Най-важното е, че в Safe мрежата идентифицираните данни са реални (документи, видеоклипове и т.н.). Това означава, че можем да използваме този идентификатор на данни, за да докажем, че самите данни са валидни мрежови данни (т.е. те са били приети преди това от мрежата).',
+            'И така, каква представлява архитектурата на верига от данни? Представете си блок от данни. Той съдържа идентификаторите на данните (например хеш, име, тип данни и т.н.). Към този блок има линк. Този линк свързва колекция от подписите на всички членове на групата, които са съгласни, че данните в този блок от данни са верни. С всяка промяна в членството на групата се създава нова връзка и се добавя към веригата данни.',
+            'Има още доста подробности за тази архитектура, но за да обобщим, веригата данни ще се раздели с разрастването на мрежата, докато колективният запис ще остане, достъпен за всички възли. Линковете доказват членството и споразумението, което се е състояло в миналото. Използвайки верига от данни, компютрите имат доказана история в мрежата, което означава, че те могат да докажат членство в групата и да бъдат класирани лесно за целите на сигурността. Някои компютри няма да имат нужда да съхраняват действителните данни, а вместо това ще притежават само идентификатори, тъй като съществуването на тези данни е гарантирано. И най-важното е, че веригите от данни в крайна сметка ще позволят сигурното публикуване на данни, ако мрежата някога се изключи временно, както и да осигурят валидиране, че данните са били съхранявани в мрежата.',
+            'Вярваме, че веригите от данни представляват естествен прогрес за децентрализираните системи. Те позволяват да се грижат и поддържат данни от всякакъв тип, размер или формат по сигурен и децентрализиран начин - в смисъл не само защитата на физическите данни, но и валидността на такива данни в мрежата.'
           ]
         }
       ]
     },
     {
-      title: 'About Safecoin',
+      title: 'За Safecoin',
       items: [
         {
-          question: 'What is Safecoin?',
+          question: 'Какво е Safecoin?',
           answer: [
-            'Safecoin is a digital token that is generated automatically by the SAFE Network and stays on the SAFE Network. The Network will autonomously confirm account balances to Wallets and allow transactions to take place. Safecoin is transferred using the digital signature of the coin’s last owner. This operation is \'network atomic\'; in other words, the Network ensures that all copies update to reflect the transaction. This is a different approach to the blockchain mechanism employed in other projects, such as Bitcoin.'
+            'Safecoin е цифрова монета, която се генерира автоматично от Safe мрежата и остава в Safe мрежата. Мрежата автоматично ще потвърждава салдото по сметките в портфейлите и ще позволява извършването на транзакции. Safecoin се прехвърля чрез цифровия подпис на последния собственик на монетата. Тази операция е на ‘атомно ниво’; с други думи, мрежата гарантира, че всички копия се актуализират, за да отразят транзакцията. Това е различен подход от този на блокчейн механизма, използван в други проекти, като Bitcoin.'
           ]
         },
         {
-          question: 'What\'s the use of Safecoin in the SAFE Network?',
+          question: 'Каква е ползата от Safecoin в Safe мрежата?',
           answer: [
-            'Safecoin is the currency of the SAFE Network. It is an incentive mechanism that rewards Users and developers, as well as providing access to network services.',
-            'Without any human intervention, the SAFE Network pays out Safecoin automatically to Farmers (users who join the Network by contributing their computing resources) and to Builders (application developers, who get paid automatically depending on how much their applications are used).',
-            'In addition, Core Developers who improve the core SAFE Network codebase can also earn Safecoin by providing bug fixes and new features.',
-            'Safecoin only lives on the SAFE Network. It is stored in a User\'s wallet and can be used to buy network services, such as increased storage space and access to network applications. There is no set distribution time for the 4.3 billion Safecoin produced during the life of the SAFE Network.'
+            'Safecoin е валутата на Safe мрежата. Това е стимулиращ механизъм, който възнаграждава потребителите и разработчиците, както и предоставянето на достъп до мрежовите услуги.',
+            'Без каквато и да е човешка намеса, Safe мрежата изплаща Safecoin автоматично на фермерите (потребители, които се присъединяват към мрежата чрез предоставяне на своите компютърни ресурси) и на строителите (разработчиците на приложения, които получават заплащане автоматично в зависимост от това колко се използват техните приложения).',
+            'В допълнение, разработчиците на ядрото, които подобряват основната кодова база на Safe Network, също могат да спечелят Safecoin, като предоставят корекции на грешки и нови функции.',
+            'Safecoin съществува само в Safe мрежата. Той се съхранява в портфейла на потребителя и може да се използва за закупуване на мрежови услуги, като увеличаване пространството за съхранение и достъп до мрежови приложения. Няма определено време за дистрибуцията на 4,3 милиарда Safecoin, определени за разплащане по време на живота на Safe мрежата.'
           ]
         },
         {
-          question: 'How do I buy Safecoin?',
+          question: 'Как да купя Safecoin?',
           answer: [
-            'Safecoin won’t be issued until the Network goes live so they cannot be purchased at the moment. Currently you can buy MaidSafeCoin which will be swapped on a 1-to-1 basis for Safecoin when released.',
-            'MaidSafeCoin is listed on the bitcoin blockchain and can be purchased on a number of exchanges including:',
-            '- [Poloniex](https://www.poloniex.com/exchange#btc_maid)\n- [HitBTC](https://hitbtc.com/MAID-to-BTC)\n- [Bittrex](https://international.bittrex.com/Market/Index?MarketName=BTC-MAID)'
+            'Safecoin няма да бъде наличен, докато мрежата не започне да функционира, така че не може да бъде закупен в момента. Понастоящем можете да закупите MaidSafeCoin, който ще бъде заменен на база 1 към 1 за Safecoin, когато бъде пуснат на пазара.',
+            'MaidSafeCoin използва блокчейна на Биткойн и може да бъде закупен на редица борси, включително:',
+            '- [HitBTC](https://hitbtc.com/MAID-to-BTC)\n- [Bittrex](https://international.bittrex.com/Market/Index?MarketName=BTC-MAID)'
           ]
         },
         {
-          question: 'Why not just use Bitcoin?',
+          question: 'Защо просто не използвате Биткойн?',
           answer: [
-            'Bitcoin is completely unrelated to the SAFE Network and cannot be generated or distributed by the SAFE Network. Safecoin is generated in response to network use (stored data being retrieved or apps are created) and is the digital currency of the SAFE network.'
+            'Биткойн е напълно различен продукт от Safe мрежата и не може да бъде генериран или разпространен от Safe мрежата. Safecoin се генерира в отговор на използването на мрежата (съхранявани данни се извличат или се създават приложения) и е цифровата валута на Safe мрежата.'
           ]
         },
         {
-          question: 'How is Safecoin valued?',
+          question: 'Как се оценява Safecoin?',
           answer: [
-            'The value of Safecoin will be set by the market. In other words, the demand to acquire Safecoin will be driven by the demand to buy things on the Network using Safecoin (e.g. other currency, products, services etc). Whilst simply viewing data on the Network will be free, Safecoin will be needed to buy distributed data storage and for communications. Farmers should earn more than enough Safecoin to enable them to use the Network. Those who earn more than they need will likely sell excess Safecoin to the exchanges.',
-            'It is worth noting that the generation and distribution of Safecoin will be entirely network-led, meaning that a great demand for Safecoin will result in a large volume being created, while low demand will lead to minimal coins being generated.'
+            'Стойността на Safecoin ще бъде определена от пазара. С други думи, търсенето за купуване на Safecoin ще бъде обусловено от търсенето за закупуване на неща в мрежата с помощта на Safecoin (например друга валута, продукти, услуги и т.н.). Докато простото гледане на данни в мрежата ще бъде безплатно, Safecoin ще е необходим за закупуване на разпределено съхранение на данни и за комуникация. Фермерите трябва да печелят повече от достатъчно Safecoin, за да може да използват мрежата. Тези, които печелят повече от необходимото, вероятно ще продават излишъка си от Safecoin на борсите.',
+            'Заслужава да се отбележи, че генерирането и разпределянето на Safecoin ще се ръководи изцяло от мрежата, което означава, че голямото търсене на Safecoin ще доведе до генерирането на голям обем от валутата, докато ниското търсене ще доведе до генериране на минимално количество.'
           ]
         },
         {
-          question: 'How is Safecoin distributed?',
+          question: 'Как се разпределя Safecoin?',
           answer: [
-            'The total number of Safecoin that can exist on the SAFE Network is 2^32, or just under 4.3 billion. 5% of that total has been allocated to compensate early investors who backed the Network development in the early days. A further 10% was sold to crowdsale participants in early 2014. They received MaidSafeCoin (a blockchain-based token that will be exchanged for Safecoin on a one-for-one ratio when the Network launches). At that stage, the holders can use Safecoin however they wish.',
-            'Beyond that, Safecoin will come into and go out of circulation in a continuous flow as follows:',
-            'All new Safecoin are generated as a part of the farming process and distributed to Farmers, App Builders and the Core Developer pool according to their individual algorithms, as described below.',
-            'Safecoin is distributed as the product of a successful “farming attempt.” The sequence leading up to a successful farming attempt starts when a Farmer’s Vault accurately delivers up stored data when the data is requested. When this is successfully done, the Vault seeks to qualify for a farming attempt. The chance of gaining a farming attempt is regulated by the network Farming Rate (FR) which prevails at that moment, and adjusts the ease or difficulty of gaining a farming attempt, depending on prevailing network conditions (availability or scarcity of storage resources).',
-            '\n*   Farmers qualify for farming attempts at 100% of the Farming Rate (FR) (as modified by Vault performance ranking).\n*   App Builders qualify for farming attempts at 10% of the FR\n*   The pool from which Core Developers are rewarded for their contributions qualifies for farming attempts at 5% of the FR.'
+            'Общият брой Safecoin монети, които могат да съществуват в Safe мрежата е 2^32, или малко под 4,3 милиарда. 5% от тази сума е отпусната за компенсиране на ранните инвеститори, които подкрепиха развитието на мрежата в първите дни. Още 10% бяха продадени на участници в публична разпродажба в началото на 2014 г. Те получиха MaidSafeCoin (токен на базата на блокчейн, който ще бъде обмен на Safecoin при съотношение едно към едно при стартирането на мрежата). След този етап притежателите на Safecoin ще могат да го използват, както желаят.',
+            'Отвъд това Safecoin монети ще влизат и ще излизат от обръщение в непрекъснат поток, както следва:',
+            'Всички нови Safecoin ще се генерират като част от процеса на фермерство и ще се разпределят между фермери, създатели на програми и общ басейн за конкурентните групи разработчици на ядрото според техните индивидуални алгоритми, както е описано по-долу.',
+            'Safecoin се създава като продукт при успешен „опит за фермерство“. Последователността, водеща до успешен опит за фермерство, започва, когато трезорът на фермера предава точно съхранените данни, когато те са поискани. Когато това е успешно направено, трезорът се стреми да се класира за опит за фермерство. Шансът за получаване на опит за фермерство се регулира от мрежовата скорост на фермерство (FR), която преобладава към този момент и коригира лекотата или трудността за получаване на опит за фермерство, в зависимост от преобладаващите мрежови условия (наличност или недостиг на ресурси за съхранение).',
+            '\n*   Фермерите отговарят на условията за опит за фермерство на 100% от скоростта на фермерство (FR) (модифицирана от класирането на трезора в резултатите по производителност).\n*   Създателите на приложения отговарят на условията за опит за фермерство с 10% от скоростта на фермерство\n*   Басейнът, от който основните разработчици са възнаградени за техния принос, отговаря на условията за опит за фермерство с 5% от скоростта на фермерство.'
           ]
         },
         {
-          question: 'What is MaidSafeCoin?',
+          question: 'Какво е MaidSafeCoin?',
           answer: [
-            'MaidSafeCoin is a proxy token that was released during MaidSafe\'s crowd sale and will be swapped for Safecoin on a 1:1 basis when Safecoin is released.',
-            'MaidSafeCoin is listed on the bitcoin blockchain and can be purchased on a number of exchanges including [Poloniex](https://www.poloniex.com/exchange#btc_maid), [HitBTC](https://hitbtc.com/MAID-to-BTC), [Bittrex](https://international.bittrex.com/Market/Index?MarketName=BTC-MAID)',
+            'MaidSafeCoin е временна монета, която беше пусната по време на публичната разпродажба организирана от MaidSafe и ще бъде заменен за Safecoin на база 1:1, когато Safecoin бъде пуснат.',
+            'MaidSafeCoin е пуснат в биткойн блокчейна и може да бъде закупен на редица борси, включително [HitBTC](https://hitbtc.com/MAID-to-BTC) и [Bittrex](https://international.bittrex.com/Market/Index?MarketName=BTC-MAID)',
           ]
         },
         {
-          question: 'How do I buy MaidSafeCoin?',
+          question: 'Как да купя MaidSafeCoin?',
           answer: [
-            'In essence all we have to do is buy bitcoin and exchange it for MaidSafeCoin. There are a few simple steps required to do this.',
-            '\n1.  Create an [OmniWallet](http://omniwallet.org/).\n2.  Purchase bitcoin using your preferred vendor.\n3.  Create a trade account on an exchange which lists MaidSafeCoin (e.g. on [Poloniex](https://www.poloniex.com/exchange#btc_maid)).\n4.  Send bitcoin to the trading account.\n5.  Trade bitcoin for MaidSafeCoin.\n6.  Withdraw / Transfer to OmniWallet.\n7.  MaidSafeCoin is now in your OmniWallet!'
+            'По същество всичко, което трябва да направите, е да купите биткойни и да ги обмените за MaidSafeCoin. За целта са необходими няколко прости стъпки.',
+            '\n1.  Създайте [OmniWallet](http://omniwallet.org/) портфейл.\n2.  Закупете биткойни с предпочитания от вас доставчик.\n3.  Създайте си акаунт в борса, на която се търгува MaidSafeCoin (например в [Bittrex](https://international.bittrex.com/Market/Index?MarketName=BTC-MAID)).\n4.  Изпратете биткойните към сметката си на борсата.\n5.  Заменете биткойните за MaidSafeCoin.\n6.  Изтеглете / прехвърлете ги към OmniWallet.\n7.  MaidSafeCoin вече е във вашия OmniWallet!'
           ]
         },
         {
-          question: 'Where can I store MaidSafeCoin?',
+          question: 'Къде мога да съхранявам MaidSafeCoin?',
           answer: [
-            'As MaidSafeCoin is built using the Omni protocol on the bitcoin blockchain it can be stored in any wallet. They may not be visible within all wallet software (due to lack of omni support) but the MaidSafeCoin will be OK there as long as your machine and private key for that address are secure and you will be able to view them using [omniexplorer.info](http://omniexplorer.info).',
-            'To create a new Omniwallet or open an existing one visit [omniwallet.org](https://www.omniwallet.org/).'
+            'Тъй като MaidSafeCoin е създаден чрез Omni протокола върху Биткойн блокчейна, той може да се съхранява във всеки биткойн портфейл. Възможно е монетите да не се виждат в конкретен портфейл (поради липса на поддръжка на Omni), но MaidSafeCoin ще бъде съхранен там, докато компютъра ви и частният ключ за този адрес са защитени и ще можете да ги видите, като използвате [omniexplorer.info](http://omniexplorer.info).',
+            'За да създадете нов Omniwallet портфейл или да отворите съществуващ посетете [omniwallet.org](https://www.omniwallet.org/).'
           ]
         },
         {
-          question: 'How will MaidSafeCoin be converted to Safecoin?',
+          question: 'Как MaidSafeCoin ще бъде разменен за Safecoin?',
           answer: [
-            'Once the SAFE Network goes live, MaidSafeCoin can be exchanged for Safecoin at a ratio of 1:1. This will probably be achieved by sending MaidSafeCoin to an unspendable address, thereby burning them. In return, an equal number of Safecoin will then be issued to the sender\'s User account on the SAFE Network.'
+            'След като Safe мрежата започне да работи, MaidSafeCoin ще може да бъде заменен за Safecoin в съотношение 1:1. Това вероятно ще бъде постигнато, като изпратите MaidSafeCoin до адрес, от който не могат да се харчат, като по този начин ги изгорите. В замяна на това равен брой Safecoin ще бъде изпрстен в потребителския акаунт на изпращача в Safe мрежата.'
           ]
         }
       ]
     },
     {
-      title: 'About Farming',
+      title: 'Относно фермерството',
       items: [
         {
-          question: 'What is Farming?',
+          question: 'Какво е фермерство?',
           answer: [
-            'Safecoin is given as an incentive to users for providing their resource to the network. This resource is their: storage space, CPU, bandwidth and online time that enable the encrypted chunks of network data to be stored and retrieved from their computer.',
-            'The process of providing resource and receiving Safecoin in return is called ‘Farming’.',
-            'Each piece of encrypted network data is stored in a Farmer\'s ‘Vault’, a data storage and management location on the Farmer\'s computer which they cannot read, or access. The SAFE network is designed to self-manage these resources.'
+            'Safecoin се дава като стимул на потребителите, които предоставят своя компютърен ресурс в мрежата. Този ресурс е тяхното: пространство за съхранение, процесор, интернет връзка и време онлайн, които дават възможност за съхранение и извличане на криптирани парчета от мрежови данни от техния компютър.',
+            'Процесът на предоставяне на ресурс и получаване на Safecoin в замяна се нарича ‘фермерство’.',
+            'Всяко парче криптирани мрежови данни се съхраняват в ‘трезора’ на фермера, т.е. в мястото за съхранение и управление на данни на компютъра на фермера, който той не може да чете или да има достъп до него. Safe мрежата е създадена да управлява сама тези ресурси.'
           ]
         },
         {
-          question: 'How will farming work in practice?',
+          question: 'Как фермерството ще работи на практика?',
           answer: [
-            'When a user of the network requests some data, for example by browsing a website, a number of things happen: First, the client software makes a request for the required data chunks. This message (a GET request) is then propagated across the Network and when the chunk is found there is a competition between the Vaults in that Section to deliver it to the Network where it will be routed back to the requester. The first Vault to deliver will have a chance of being rewarded with Safecoin. This is described as a Farming Attempt.',
-            'Farming Attempt means: by delivering data chunks when requested, a Vault occasionally gains the opportunity to make a Farming Attempt. This consists of sending a validated request to a random Safecoin address. If an owned Safecoin already exists at that address, the Attempt fails. If there is no Safecoin there, one is created and awarded to the requesting Vault (i.e. a successful Farming Attempt has been made).',
-            'Farming is therefore when a Vault delivers data chunks that it is storing to the network and earns Safecoin in return.',
-            'The probability of gaining a Farming Attempt is dependent on the farming rate, which is a variable related to the quantity of available storage resources in the Network.'
+            'Когато потребител на мрежата поиска някакви данни, например чрез сърфиране в уебсайт, се случват няколко неща: Първо, клиентският софтуер прави заявка за необходимите парчета данни. Това съобщение (GET заявка) след това се разпространява в мрежата и когато бъде намерен фрагмент от данни, има съревнование между трезорите в тази секция, за да го доставят в мрежата, където ще бъде насочено обратно към заявителя. Първият трезор, който го предостави, ще има шанс да бъде възнаграден със Safecoin. Това се нарича - опит за фермерство.',
+            'Опит за фермерство означава: чрез предоставяне на парчета данни при поискване, трезорът от време на време получава възможност да направи опит за фермерство. Това се състои в изпращане на валидирана заявка до случаен адрес на Safecoin. Ако притежаваният Safecoin вече съществува на този адрес, опитът се проваля. Ако няма Safecoin там, един се създава и дава на искащия трезор (т.е. направен е успешен опит за фермерство).',
+            'Следователно фермерството е процес, при който трезор доставя парчета данни, които съхранява в мрежата и печели Safecoin в замяна.',
+            'Вероятността за получаване на опит за фермерство зависи от скоростта на фермерство, която е променлива, свързана с количеството на наличните ресурси за съхранение в мрежата.'
           ]
         },
         {
-          question: 'What is stopping a hosting provider from farming?',
+          question: 'Какво спира хостинг доставчиците да са фермери?',
           answer: [
-            'Nothing. Everyone is welcome to farm and thereby contribute to the network. To prevent centralisation, the use of one huge farming rig will be economically discouraged as compared to running multiple smaller nodes. The Safecoin earning algorithm is based on a Sigmoid curve, in that all Vaults earn, slowly at first and the rate increases as the Farmer stores up to the network average. The earning rate also takes into account the rank of the Vault, a process whereby the network scores the usefulness of each node from 0 (being the worst) to 1 (the best).',
-            'The Safecoin farming rate is ultimately the result of the network rate (a balance of the demand and supply on the network) multiplied by the Vault rank. The network rate will start to level at 20% above average, thus discouraging massive Vaults which would bring centralisation to the network’s farming process.'
+            'Нищо. Всички са добре дошли да са фермери и по този начин да допринесат за мрежата. За да се предотврати централизирането, използването на една огромна фермерска платформа ще бъде икономически обезкуражено в сравнение с работата на множество по-малки трезори. Алгоритъмът за печелене на Safecoin се основава на кривата на Сигмоид, тъй като всички трезори печелят, първоначално бавно и скоростта се увеличава, докато фермерът постигне средно количество съхранена информация за мрежа. Степента на печалба също отчита ранга на трезора, процес, при който мрежата оценява полезността на всеки възел от 0 (най-лошият) до 1 (най-добрият).',
+            'Скоростта на фермерство на Safecoin в крайна сметка е резултат от мрежовия ресурс (баланс между търсенето и предлагането в мрежата), умножен по ранга на трезора. При достигане на 20% над средното ниво от мрежови ресурси добива ще намалее, като по този начин ще обезсърчи масивни трезори, които биха внесли централизация във фермерския процес на мрежата.'
           ]
         }
       ]
     },
     {
-      title: 'For Developers',
+      title: 'За разработчици на програми',
       items: [
         {
-          question: 'What’s in it for developers?',
+          question: 'Какво ще спечелят разработчиците?',
           answer: [
-            '15% of all Safecoin earned will be allocated to the developer pool. This will ensure the developer community is highly motivated and rewarded for providing free-to-use applications as their revenue model. It is proposed that developers are able to use the SAFE Network to publish their applications. These application developers are called Builders and the network will reward use of these applications by paying the Builders in Safecoin based on the application use by users of the system. This is possible since the application developer can insert their own network immutable wallet address in their application. This creates a fully automatic revenue model for both open source projects, private individuals and application development companies. Developers who contribute code that enhances or fixes bugs in the SAFE Network that are accepted into the master branch of the codebase will also be able to earn Safecoin.',
-            'Reasons for developing on the SAFE Network:',
-            '\n*   Get your apps everywhere\n*   No API key—just download our code and start using it\n*   Extremely low customer acquisition costs and no infrastructure costs\n*   Apps that adapt in real-time to changes in demand\n*   Provide security, privacy and anonymity to all your users'
+            '15% от всички спечелени Safecoin ще бъдат разпределени в пула за програмисти. Това ще гарантира, че общността на разработчиците е силно мотивирана и възнаградена за предоставянето на безплатни приложения с уникален модел на приходи. Предлага се разработчиците да могат да използват Safe мрежата за да публикуват своите програми. Тези разработчици на приложения се наричат ‘строители’ и мрежата ще възнагради използването на техните програми, като им плаща в Safecoin въз основа на използването на приложенията от потребителите на системата. Това е възможно, тъй като разработчикът на приложения може да вмъкне в приложението си свой собствен неизменен адрес на портфейла си. Това създава напълно автоматичен модел на приходи както за проекти с отворен код, частни лица и компании за разработка на приложения. Разработчиците, които предоставят код, който подобрява или коригира грешки в Safe мрежата, които са приети в основния клон на кодовата база, също ще могат да печелят Safecoin.',
+            'Причини за програмиране за Safe мрежата:',
+            '\n*   Вземете програмите си навсякъде\n*   Няма API ключ - просто изтеглете нашия код и започнете да го използвате\n*   Изключително ниски разходи за придобиване на клиенти и без инфраструктурни разходи\n*   Приложения, които се адаптират в реално време към промените в търсенето\n*   Осигурете сигурност, поверителност и анонимност на всички ваши потребители'
           ]
         },
         {
-          question: 'As a developer how do I get involved?',
+          question: 'Като програмист как да се включа?',
           answer: [
-            'On top of our informative and helpful [Developer Forum](https://forum.safedev.org/) The SAFE Network has a dedicated [developer hub](https://hub.safedev.org/) that is the hub for all development information and resource.',
-            '[Visit the Dev Hub](https://hub.safedev.org/)'
+            'В допълнение към нашия информативен и полезен [Dev форум](https://forum.safedev.org/) Safe мрежата разполага със специализиран [център за програмисти](https://hub.safedev.org/), който е център за всички ресурси за развитие.',
+            '[Посетете DevHub](https://hub.safedev.org/)'
           ]
         },
         {
-          question: 'Why is the SAFE Network open&#8209;source?',
+          question: 'Защо Safe Network е с отворен код?',
           answer: [
-            'Because the SAFE Network has the potential to become a vital part of the lives of every connected person on the planet, MaidSafe are 100% committed to ensuring that all software is released under an open source licence. This encourages innovation and helps prevent any single person, company or organisation gaining control over the technology.'
+            'Тъй като Safe мрежата има потенциал да стане жизненоважна част от живота на всеки свързан към интернет човек на планетата, MaidSafe са 100% ангажирани да гарантират, че целият софтуер се пуска под лиценз с отворен код. Това насърчава иновациите и помага да се предотврати един човек, компания или организация да получи контрол върху технологията.'
           ]
         },
         {
-          question: 'What Open Source licenses do the SAFE Network use?',
+          question: 'Какви лицензи с отворен код използва Safe Network?',
           answer: [
-            'All SAFE Network and MaidSafe code is made available under [GPLv3](https://www.gnu.org/licenses/gpl.html) ,[BSD](http://www.linfo.org/bsdlicense.html) or [MIT](https://opensource.org/licenses/MIT) license.'
+            'Всичкия код на Safe мрежата и MaidSafe е достъпен под [GPLv3](https://www.gnu.org/licenses/gpl.html) ,[BSD](http://www.linfo.org/bsdlicense.html) или [MIT](https://opensource.org/licenses/MIT) лиценз.'
           ]
         }
       ]
