@@ -1,73 +1,73 @@
 import CONSTANT from 'src/constant'
 
 export default {
-  title: 'It’s the dawn of a new web.\n Help us create it.',
-  pageDesc: 'The SAFE Network is an Open Source and collaborative effort between developers and the community using it. You can get involved by testing, suggesting, coding, or promoting. Here’s how.',
+  title: 'Зората на нов интернет е.\n Помогнете ни да го създадем.',
+  pageDesc: 'Safe мрежата е с отворен код и се създава с усилия и сътрудничество между разработчиците и общността, която я използва. Можете да се включите, като тествате, предлагате, програмирате или популяризирате. Ето как.',
   develop: {
     trySafeNet: {
-      title: 'Try the SAFE Network',
+      title: 'Тествайте Safe мрежата',
       para: [
-        'SAFE will change how we’ll interact with the web and our own data. A leap as big as this requires continuous testing and feedback from the people who it is designed for—and that’s where you can help.',
-        'Download the SAFE Browser to browse the Network, or why not join the community and be one of many that provide feedback, contribute to code and essentially, help shape the Network.'
+        'Safe ще промени начина, по който ще си взаимодействаме с интернет и собствените си данни. Този голям скок изисква непрекъснато тестване и обратна връзка от хората, за които е предназначен - и в това можете да помогнете.',
+        'Изтеглете Safe браузъра, за да разглеждате мрежата или защо да не се присъедините към общността и да бъдете един от многото, които предоставят обратна връзка, допринасят за кода и по същество, помагат за оформянето на мрежата.'
       ]
     },
     startDevelop: {
-      title: 'Start Developing on SAFE',
+      title: 'Започнете да програмирате върху Safe',
       para: [
-        'SAFE will change how we’ll interact with the web and our own data. A leap as big as this requires continuous testing and feedback from the people who it is designed for—and that’s where you can help.',
-        'Download the SAFE Browser to browse the Network, or why not join the community and be one of many that provide feedback, contribute to code and essentially, help shape the Network.'
+        'Safe ще промени начина, по който ще си взаимодействаме с интернет и собствените си данни. Този голям скок изисква непрекъснато тестване и обратна връзка от хората, за които е предназначен - и в това можете да помогнете.',
+        'Изтеглете Safe браузъра, за да разглеждате мрежата или защо да не се присъедините към общността и да бъдете един от многото, които предоставят обратна връзка, допринасят за кода и по същество, помагат за оформянето на мрежата.'
       ],
       CTA: {
-        name: 'Visit the DevHub',
+        name: 'Посетете центъра за програмисти',
         url: 'https://hub.safedev.org'
       }
     },
     joinForum: {
-      title: 'Join the Developer Community',
+      title: 'Присъединете се към общността на програмистите',
       para: [
-        'In addition to the developer hub, we also have a growing developer forum. It’s a great way to get support and collaborate.'
+        'В допълнение към центъра за програмисти, имаме и разрастващ се форум за програмисти. Това е чудесен начин да получите подкрепа и да си сътрудничите.'
       ],
       CTA: {
-        name: 'Developer Forum',
+        name: 'Форум за програмисти',
         url: 'https://forum.safedev.org'
       }
     },
     coreNetwork: {
-      title: 'Help Build the Core Network',
+      title: 'Помогнете за изграждането на ядрото на мрежата',
       para: [
-        'You can also get involved by helping to maintain the Networks underlying open source libraries. As we reach beta launch it will be possible to be compensated in Safecoin for fixing bugs, optimising code and developing new features.'
+        'Можете също да се включите, като помагате с поддържаката на основата от мрежови библиотеките с отворен код. С достигането до бета ще може да бъдете възнаграждавани със Safecoin за поправяне на грешки, оптимизиране на код и разработване на нови функции.'
       ],
       CTA: {
-        name: 'Contribute on GitHub',
+        name: 'Дайте своя принос в GitHub',
         url: 'https://github.com/maidsafe/'
       }
     }
   },
   engage: {
     community: {
-      title: 'Be part of the community',
+      title: 'Станете част от общността',
       para: [
-        'The SAFE Network community is comprised of thousands of people from all over the world passionate about the unfettered access and sharing of data.',
-        'Safenetforum.org is the main discussion forum of this growing community and is a great place to help test new releases by the development teams, receive support, discuss the latest Internet trends and read the weekly dev updates. To meet others in person, take a look at the various meetups taking place around the world.'
+        'Обществото на Safe Network се състои от хиляди хора от цял свят, страстно вярващи в правото на неограничения достъп и споделяне на данни.',
+        'е основният английски дискусионен форум (за български вижте forum.safenetwork.bg) на общността и е чудесно място да помогнете за изпробването на нови версии от екипите за разработка, получаване на подкрепа, обсъждане на най-новите тенденции в интернет и четене на седмичните новини от програмистите. За да се срещнете лично с други хора, разгледайте различните срещи, които се провеждат по света.'
       ],
       CTA: {
-        name: 'Join the Forum',
+        name: 'Присъединете се към форума',
         url: 'https://safenetforum.org'
       }
     },
     subscribe: {
-      title: 'Stay Up-to-date'
+      title: 'Бъдете в крак с последната информация'
     }
   },
   invite: {
-    title: 'Get Started',
+    title: 'Първи стъпки',
     joinCommunity: {
       id: 'joinCommunity',
-      title: 'Join the community',
-      para: 'Join the community and meet minded individuals dedicated to making the digital world a safer, more private place.',
+      title: 'Присъединете се към общността',
+      para: 'Присъединете се към общността и се срещнете със съмишленици, посветени на превръщането на дигиталния свят в по-безопасно и по-лично място.',
       CTA: {
         button: {
-          name: 'Forum',
+          name: 'Форум',
           url: 'http://safenetforum.org'
         },
         // link: {
@@ -78,26 +78,26 @@ export default {
     },
     installBrowser: {
       id: 'installBrowser',
-      title: 'Install the SAFE Browser',
-      para: 'Grab the latest SAFE Browser to start browsing the Network today!”',
+      title: 'Инсталирайте Safe браузъра',
+      para: 'Свалете най-новия Safe браузър, за да започнете да сърфирате в мрежата днес!”',
       CTA: {
         button: {
-          name: 'Download for',
+          name: 'Изтеглете версия за',
           url: '/'
         },
         link: {
-          name: 'More Options',
+          name: 'Повече опции',
           url: CONSTANT.downloadApps.browser.others
         }
       }
     },
     feedback: {
       id: 'feedback',
-      title: 'Feedback & Contribute',
-      para: 'Building the SAFE Network is a team effort. You can help out by making suggestions, reporting bugs, or contributing code.',
+      title: 'Обратна връзка и принос',
+      para: 'Изграждането на Safe Network е екипно усилие. Можете да помогнете, като правите предложения, съобщавате за грешки или добавяте код.',
       CTA: {
         button: {
-          name: 'Join Community',
+          name: 'Присъеденете се към общността',
           url: 'https://safenetforum.org'
         }
       }
@@ -106,19 +106,19 @@ export default {
   faqs: {
    sections: [
     {
-      title: 'Getting Started: Frequently Asked Questions',
+      title: 'Започнете тук: Често задавани въпроси',
       items: [
         {
-          question: 'How do I get involved with The SAFE Network community?',
+          question: 'Как да се присъедините към Safe Network общността?',
           answer: [
-            'The Community is most active on the [SAFE Network Forum](https://safenetforum.org/) and we’d suggest starting in the [beginners section](https://safenetforum.org/c/beginners )',
-            '_[Visit the Forum](https://safenetforum.org/)_'
+            'Общността е най-активна в [Safe Network форума](https://safenetforum.org/) може да започнете от [секцията за начинаещи](https://safenetforum.org/c/beginners )',
+            '_[Посетете форума](https://safenetforum.org/)_'
           ]
         },
         {
-          question: 'How do I get help?',
+          question: 'Как може да получите помощ?',
           answer: [
-            'The [SAFE Network Community](https://safenetforum.org) is the place to head to for all questions on the Network.',
+            '[Safe Network форумът](https://safenetforum.org) е мястото, където ще получите отговор на всичките си въпроси',
             '_[Visit the Forum](https://safenetforum.org/)_'
           ]
         }
@@ -126,7 +126,7 @@ export default {
     },
    ],
    CTA: {
-     name: 'More FAQs',
+     name: 'Още често задавани въпроси',
      url: '/faq'
    }
   }
