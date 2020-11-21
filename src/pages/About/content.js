@@ -1,14 +1,14 @@
 export default {
-  desc: 'The company that originally envisaged the SAFE Network, MaidSafe are driven by one overriding goal: to provide privacy, security and freedom for everyone on the planet.',
+  desc: 'Компанията, която първа започва работа по Safe мрежата, MaidSafe се ръководи от една цел: да осигури поверителност, сигурност и свобода за всички на планетата.',
   CTA: {
-    name: 'Contact MaidSafe',
+    name: 'Свържете се с MaidSafe',
     url: 'https://maidsafe.net/'
   },
   para: [
-    'In 2006, MaidSafe began work on a decentralised internet that is private, secure and free for everybody. Since those early days, the team, led by founder David Irvine, has been focused solely on building the SAFE Network to solve the problems of an increasingly centralised internet that is facing more issues with each day that passes.',
-    'MaidSafe are based in Ayr, Scotland but the team is distributed all across the globe. It has has drawn talents from many different cultures and countries, reflecting the users that they serve. Comprised of thinkers, inventors, tinkerers, PhDs, engineers and designers, they are building software that is [open source and free to use](https://github.com/maidsafe) and share in a single mission: a desire to provide security and privacy for everyone.',
-    'MaidSafe are guided and influenced by the SAFE Network Community who have helped to fund the work and guide its decisions through discussions across community-run platforms.',
-    'The SAFE Network is currently in Alpha Release stages. Upon full release, MaidSafe will be only one of many thousands of developers making a living by carrying out development on the Network as a result of the built-in incentivisation scheme.',
-    'To contact the team directly, visit the company website at [maidsafe.net](https://maidsafe.net/contact) for further details.'
+    'През 2006 г. MaidSafe започна работа по децентрализиран интернет, който е частен, сигурен и безплатен за всички. От онези ранни дни екипът, ръководен от основателя Дейвид Ървайн, е съсредоточен единствено върху изграждането на Safe мрежата за решаване на проблемите на все по-централизирания интернет, който с всеки изминал ден се сблъсква с повече проблеми.',
+    'MaidSafe са базирани в Ейр, Шотландия, но екипът е разпределен по целия свят. Те обхващат таланти от много различни култури и страни, отразявайки разнообразието на потребителите, които обслужват. Съставени от мислители, изобретатели, производители, докторанти, инженери и дизайнери, те изграждат софтуер, който е с [отворен код и е свободен за използване](https://github.com/maidsafe) и споделяне с една мисия: желание да осигури сигурност и поверителност за всички.',
+    'MaidSafe се ръководи и се влияе от общността на Safe мрежата, които помагат с финансирането на работата и ръководят решенията чрез дискусии в платформите, управлявани от общността.',
+    'Safe мрежата понастоящем е в ранни алфа етапи. След пълното й пускане MaidSafe ще бъдат само едни от хилядите разработчици, които изкарват прехраната си, работейки по кода на мрежата в резултат от вградената схема за стимулиране.',
+    'За да се свържете директно с екипа, посетете уебсайта на компанията на [maidsafe.net](https://maidsafe.net/contact) за повече подробности.'
   ]
 }
