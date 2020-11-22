@@ -1,17 +1,17 @@
 export default {
   'safeNetwork': {
-    'name': 'SAFE Network',
+    'name': 'Safe Network',
     'links': [
       {
-        'name': 'Home',
+        'name': 'Начало',
         'url': '/'
       },
       {
-        'name': 'How It Works',
+        'name': 'Как работи',
         'url': '/how-it-works/'
       },
       {
-        'name': 'Press Kit',
+        'name': 'Преса',
         'url': '/press-kit/'
       },
       {
@@ -19,29 +19,29 @@ export default {
         'url': '/safecoin/'
       },
       {
-        'name': 'Get Involved',
+        'name': 'Включете се',
         'url': '/get-involved/'
       },
       {
-        'name': 'FAQs',
+        'name': 'ЧЗВ',
         'url': '/faq/'
       },
       {
-        'name': 'Blog',
+        'name': 'Блог',
         'url': 'https://medium.com/safenetwork'
       },
       {
-        'name': 'Roadmap',
+        'name': 'Карта на проекта',
         'url': '/roadmap/'
       },
       {
-        'name': 'Events',
+        'name': 'Събития',
         'url': 'https://safenetforum.org/t/safe-network-upcoming-events/29029'
       }
     ]
   },
   'community': {
-    'name': 'Community',
+    'name': 'Общност',
     'links': [
       {
         'name': 'Safe Network форум - Български',
