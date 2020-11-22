@@ -2,7 +2,7 @@ export default {
   siteName: 'Safe Network',
   navItems: [
     {
-      name: "How it Works",
+      name: "Как работи",
       link: "/how-it-works/"
     },
     {
@@ -10,25 +10,25 @@ export default {
       link: "/safecoin/"
     },
     {
-      name: "Roadmap",
+      name: "Карта на проекта",
       link: "/roadmap/"
     },
     {
-      name: "Fundamentals",
+      name: "Фундаменти",
       link: "/fundamentals/"
     },
     {
-      name: "FAQs",
+      name: "ЧЗВ",
       link: "/faq/"
     },
     {
-      name: "Press Kit",
+      name: "Преса",
       link: "/press-kit/"
     }
   ],
   navButtons: [
     {
-      name: "Get Involved",
+      name: "Включете се",
       link: "/get-involved/"
     }
   ]
