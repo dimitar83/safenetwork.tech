@@ -44,41 +44,45 @@ export default {
     'name': 'Community',
     'links': [
       {
-        'name': 'SAFE Network Forum',
+        'name': 'Safe Network форум - Български',
+        'url': 'https://forum.safenetwork.bg/'
+      },
+      {
+        'name': 'Safe Network форум - Английски',
         'url': 'https://safenetforum.org/'
       },
       {
-        'name': 'Developers Forum',
+        'name': 'Форум за програмисти',
         'url': 'https://forum.safedev.org/'
       }
     ]
   },
   'company': {
-    'name': 'Company',
+    'name': 'Компания',
     'links': [
       {
-        'name': 'About MaidSafe',
+        'name': 'Относно MaidSafe',
         'url': '/about-maidsafe'
       },
       {
-        'name': 'Website',
+        'name': 'Сайт',
         'url': 'https://maidsafe.net/'
       },
       {
-        'name': 'Contact',
+        'name': 'Контакти',
         'url': 'https://maidsafe.net/contact'
       },
       {
-        'name': 'Careers',
+        'name': 'Работа',
         'url': 'https://maidsafe.net/careers'
       }
     ]
   },
   'developers': {
-    'name': 'Developers',
+    'name': 'Програмисти',
     'links': [
       {
-        'name': 'Developer Hub',
+        'name': 'Хъб за програмисти',
         'url': 'https://hub.safedev.org/'
       },
       {
@@ -88,37 +92,37 @@ export default {
     ]
   },
   'legal': {
-    'name': 'Legal',
+    'name': 'Правна информация',
     'links': [
       {
-        'name': 'Privacy Policy',
+        'name': 'Политика за поверителност',
         'url': '/privacy'
       },
       {
-        'name': 'Cookie Policy',
+        'name': 'Бисквитки',
         'url': '/cookies'
       },
       {
-        'name': 'Credits',
+        'name': 'Признателност',
         'url': 'https://maidsafe.net/credits'
       }
     ]
   },
-  'newsletter': {
-    'name': 'Newsletter'
+#  'newsletter': {
+#    'name': 'Newsletter'
   },
   'social': {
-    'name': 'Social',
+    'name': 'Социални мрежи',
     'links': [
       {
         'style': 'twitter',
         'name': 'Twitter',
-        'url': 'https://twitter.com/maidsafe'
+        'url': 'https://twitter.com/SAFEnetworkBG'
       },
       {
         'style': 'facebook',
         'name': 'Facebook',
-        'url': 'https://www.facebook.com/GetMaidSafe/'
+        'url': 'https://www.facebook.com/SafeNetworkBulgaria'
       },
       {
         'style': 'medium',
